@@ -1,6 +1,6 @@
-# 🏁 Welcome to Carbase AI
+# 🏁 Welcome to Carbase 
 
-Welcome to Carbase AI — the first platform built around verified vehicle identity.
+Welcome to Carbase  — the first platform built around verified vehicle identity.
 
 Whether you're building a track car, a show build, or daily driving something special, Carbase AI gives your vehicle a digital identity that grows with every modification.
 

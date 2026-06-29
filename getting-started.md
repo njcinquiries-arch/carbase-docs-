@@ -4,15 +4,7 @@ When you open Carbase AI for the first time, you'll set up your vehicle identity
 
 ***
 
-## 1. 📷 Photo Scanner *(Recommended)*
-
-Point your camera at your vehicle or license plate. Carbase AI's AI vision will automatically detect your make, model, year, trim level, and available specs.
-
-This is the fastest and most accurate method.
-
-***
-
-## 2. 🔢 VIN Verification *(Recommended)*
+## 1. 🔢 VIN Verification *(Recommended)*
 
 Enter your 17-character Vehicle Identification Number. Carbase AI cross-references licensed automotive databases to pull your factory specs, trim details, recall history, and baseline configuration.
 
@@ -24,7 +16,13 @@ Enter your 17-character Vehicle Identification Number. Carbase AI cross-referenc
 
 ***
 
-## 3. ✍️ Manual Entry *(Least Recommended)*
+## 2. 📷 Photo Scanner
+
+Point your camera at your vehicle or license plate. Carbase AI's AI vision will automatically detect your make, model, year, trim level, and available specs.
+
+***
+
+## 3. ✍️ Manual Entry *(Not Recommended)*
 
 Enter your vehicle details manually — make, model, year, trim, and specs. This option is available if scanning or VIN lookup doesn't work, but may result in less accurate OVR Score calculations.
 

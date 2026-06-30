@@ -1,183 +1,141 @@
 # ⭐ OVR Score
 
-The OVR Score is Carbase AI's proprietary rating system — a programmatic evaluation of your vehicle's performance potential, build depth, and verified modification history. Every car on the platform carries two scores: a **Baseline** and a **Current**.
+The OVR Score is Carbase AI's proprietary vehicle rating — a number between 0 and 100 that reflects how well a vehicle performs **within its intended role**. It is not a flat performance leaderboard. A Toyota 4Runner and a Lamborghini Huracán can both earn elite scores — for completely different reasons.
 
 ***
 
 ## Baseline vs. Current Score
 
 **📦 Baseline Score**
-Your vehicle's score straight from the factory. Calculated purely from stock specs — horsepower, acceleration, drivetrain, power-to-weight ratio, and brand heritage. This never changes. It reflects what the manufacturer built.
+Your vehicle's score as it left the factory. Calculated from stock specs and evaluated against its classified role. This never changes.
 
 **🔧 Current Score**
-Your live OVR Score. It starts at your Baseline and climbs as you log and verify modifications to your build. The more you build, the higher it goes — up to the platform maximum of **100**.
-
-> A stock Civic might baseline around 30–36. A fully built one with every mod logged might reach 39. A stock Bugatti Chiron can approach 98. A 100 is nearly impossible by design — the score is meant to be hard to max.
+Your live score after verified modifications are applied. Mods are analyzed, weighted, and factored in — pushing your Current Score above your Baseline based on what you've actually built and proven.
 
 ***
 
-## How the Baseline Is Calculated
+## How Scoring Works — Role-Aware Evaluation
 
-The Baseline OVR Score is built from **5 weighted performance categories**, totaling a maximum of 100 points.
+Carbase AI uses a **Dynamic Domain Weighting Model**. Every vehicle is first classified by its role, then evaluated across 7 performance domains. The weight each domain carries shifts based on what the vehicle was built to do.
 
-***
+**The 7 Evaluation Domains:**
 
-### 🔥 1. Power Output — 30 pts
+| Domain | What It Measures |
+| ----------- | ------------------------------------------------- |
+| 🏎️ Performance | Power, acceleration, handling, track capability |
+| 🛡️ Safety | Braking, structural integrity, driver aids |
+| 🔩 Reliability | Engine longevity, build quality, service history |
+| 🛋️ Comfort | Cabin noise, ride quality, interior refinement |
+| ⛽ Efficiency | Fuel economy, emissions, powertrain efficiency |
+| 📦 Utility | Cargo capacity, towing, practicality |
+| 🎯 Cohesion | How well all systems work together as a package |
 
-| Horsepower   | Points |
-| ------------ | ------ |
-| ≥ 700 HP     | 30     |
-| ≥ 500 HP     | 25     |
-| ≥ 350 HP     | 20     |
-| ≥ 250 HP     | 15     |
-| ≥ 150 HP     | 10     |
-| < 150 HP     | 5      |
-
-***
-
-### ⚡ 2. Acceleration — 25 pts
-
-| 0–60 mph Time | Points |
-| ------------- | ------ |
-| ≤ 2.5s        | 25     |
-| ≤ 3.5s        | 22     |
-| ≤ 4.5s        | 18     |
-| ≤ 6.0s        | 12     |
-| ≤ 8.0s        | 6      |
-| > 8.0s        | 2      |
+The weights are proprietary — but the principle is simple: **a car is scored on what it was designed to be.**
 
 ***
 
-### ⚖️ 3. Power-to-Weight Ratio — 20 pts
+## Case Studies
 
-Calculated as `HP ÷ (Weight in lbs ÷ 2000)` (HP per ton).
+### 🏔️ Off-Road Utility SUV (e.g., Toyota 4Runner)
 
-| HP per Ton    | Points |
-| ------------- | ------ |
-| ≥ 400 HP/ton  | 20     |
-| ≥ 300 HP/ton  | 17     |
-| ≥ 200 HP/ton  | 14     |
-| ≥ 100 HP/ton  | 9      |
-| < 100 HP/ton  | 4      |
+A 4Runner isn't built for lap times. It's built for trail capability, towing, and decades of reliability.
+
+- High domain priority: **Utility, Reliability**
+- Low domain priority: **Performance, Efficiency**
+- Result: Despite modest horsepower and average fuel economy, the 4Runner scores in the **low-80s baseline** — accurately rewarding what it actually does well.
 
 ***
 
-### 🚗 4. Traction Layout — 10 pts
+### 🏎️ High-Performance Supercar (e.g., Lamborghini Huracán)
 
-| Drivetrain | Points |
-| ---------- | ------ |
-| AWD        | 10     |
-| 4WD        | 9      |
-| RWD        | 8      |
-| FWD        | 5      |
+A Huracán isn't built for cargo space. It's built to go fast and feel alive.
 
-***
-
-### 🏆 5. Heritage & Prestige — 15 pts
-
-| Brand Tier                                        | Points |
-| ------------------------------------------------- | ------ |
-| Halo Vehicles (GT-R Nismo, Bugatti, etc.)         | 15     |
-| Premium Exotic (Ferrari, Lamborghini, McLaren)    | 12     |
-| Premium Tier (BMW M, Porsche, Mercedes-AMG)       | 10     |
-| Enthusiast Japanese (Toyota, Mazda, Honda, Subaru)| 8      |
-| Standard Tier                                     | 6      |
+- High domain priority: **Performance, Cohesion**
+- Low domain priority: **Utility, Comfort**
+- Result: The tiny trunk and firm ride don't drag the score down. The Huracán earns a baseline in the **low-to-mid 90s** — and poor cargo capacity doesn't cost it a single meaningful point.
 
 ***
 
-### The Baseline Formula
+## Modification Impact & Rating Boost
 
-```
-Baseline OVR = min(100, Power + Acceleration + Power-to-Weight + Drivetrain + Prestige)
-```
+When you add mods to your build, Carbase AI's engine analyzes each modification and assigns it to a functional category. Each category carries a performance coefficient that contributes to your total power and torque gains.
 
-***
+### 📸 The Verification Confidence Factor
 
-## How Mods Boost Your Current Score
+Not all mods are treated equally. Verification directly affects how much credit a mod receives:
 
-Once your baseline is set, modifications push your Current Score above it. Every mod you log is evaluated by Carbase AI's built-in performance engine, which maps keywords from your build log to known performance gains.
+| Verification Status | Performance Credit |
+| ------------------- | ------------------ |
+| ✅ Verified (with installation photo) | 100% of estimated impact |
+| ⚠️ Unverified (text only) | 50% of estimated impact |
 
-### How Mod Verification Works
-
-Carbase AI doesn't just take your word for it. Every modification goes through a **3-layer verification process** before it counts toward your Current Score:
-
-**1. 🧾 Receipt Upload**
-Upload a purchase receipt from the shop, dealer, or retailer that supplied the part. Carbase AI reads and validates the document.
-
-**2. 🔗 Product Link Submission**
-Submit the direct product URL — from any major aftermarket retailer (Amazon, Summit Racing, TireRack, manufacturer sites, etc.). Our system cross-references the link against known part databases to confirm the modification is real and compatible with your vehicle.
-
-**3. 🤖 AI Verification**
-Carbase AI's built-in AI reviews your receipt, product link, and mod description together. It confirms authenticity, flags inconsistencies, and approves or flags the modification for review. Approved mods are permanently logged to your build timeline.
-
-> Cosmetic and handling mods (wraps, coilovers, wings) are verified the same way — they just don't affect your HP/Torque figures.
-
-***
-
-## Performance Boost Model
-
-When a mod is verified, Carbase AI's engine runs a **fuzzy keyword parser** against the MOD\_IMPACT\_MAP to extract the performance gains for that modification. Total gains are summed across all verified mods:
-
-```
-ΔHP_total    = ΔHP₁ + ΔHP₂ + ... + ΔHPₙ
-ΔTorque_total = ΔTorque₁ + ΔTorque₂ + ... + ΔTorqueₙ
-```
-
-### Mod Impact Reference Table
-
-| Modification                          | ΔHP      | ΔTorque    |
-| ------------------------------------- | -------- | ---------- |
-| 🌀 Turbocharger                        | +100 HP  | +120 lb-ft |
-| ⚡ Supercharger                        | +80 HP   | +90 lb-ft  |
-| 💨 Nitrous System                      | +75 HP   | +50 lb-ft  |
-| 🖥️ ECU Tune / Remap                   | +40 HP   | +50 lb-ft  |
-| 🔩 Camshaft Profile Upgrade            | +30 HP   | +20 lb-ft  |
-| 🔧 Downpipe Upgrade                    | +25 HP   | +30 lb-ft  |
-| 🔊 Exhaust Upgrade                     | +15 HP   | +20 lb-ft  |
-| 🌬️ High-Flow Intake                   | +15 HP   | +10 lb-ft  |
-| ❓ Unmapped Custom Mod                 | +5 HP    | +5 lb-ft   |
-| 🎨 Handling / Cosmetic (coilovers, wraps, wings) | +0 HP | +0 lb-ft |
-
-***
-
-## Overall Rating Boost from Mods
-
-Verified modifications also directly boost your **Overall Score** shown on the front of your Car Card. The boost is calculated based on your total mod count:
-
-```
-ΔRating = min(3, Round(Mod Count × 0.5))
-Final OVR = min(100, Baseline + ΔRating)
-```
-
-The modification boost is **capped at +3 points** to preserve balance between stock vehicles and custom builds. This means the Baseline still matters — but a well-documented build always edges out a stock car at the same baseline.
-
-| Verified Mods | Rating Boost |
-| ------------- | ------------ |
-| 1–2 mods      | +1           |
-| 3–4 mods      | +2           |
-| 5+ mods       | +3 (max)     |
+> If you claim an ECU tune but don't provide a photo or receipt, the engine still credits you — but at half weight. Verify your mods to get full credit.
 
 ***
 
 ## HUD Studio Class Rating
 
-Every build on Carbase AI also carries a **Class Rating** — a letter grade displayed on your Car Card's HUD that reflects the total horsepower gained from verified modifications.
+Every build carries a **Class Rating** on your Car Card's HUD — a letter grade that reflects the cumulative performance gains from your verified modifications.
 
-| Class | ΔHP Total Required         |
-| ----- | -------------------------- |
-| 🟠 **S** | ≥ 200 HP gained          |
-| 🔵 **A** | 100 – 199 HP gained      |
-| 🟢 **B** | 40 – 99 HP gained        |
-| 🟡 **C** | 10 – 39 HP gained        |
-| ⚪ **D** | < 10 HP gained (stock)   |
+| Class | Build Level |
+| ----- | ----------------------------------------- |
+| 🟠 **S** | Extreme / Exotic — major power adders working in unison |
+| 🔵 **A** | Forced Induction / Advanced — heavy bolt-ons or single forced-induction |
+| 🟢 **B** | Moderate Bolt-Ons — typical street builds (intake, exhaust, tune) |
+| 🟡 **C** | Entry Level — minor supporting upgrades |
+| ⚪ **D** | Stock — no meaningful performance modifications logged |
 
-A stock vehicle with no modifications starts at **Class D**. Add a turbo and an ECU tune and you're already hitting **Class A**. Stack a full build and earn your **S Class**.
+### Tuning Case Studies
+
+**🔧 The Bolt-On Street Build**
+
+- 1 verified intake, 1 verified exhaust, 1 unverified ECU tune
+- The intake and exhaust receive full credit. The unverified tune receives 50% credit.
+- Result: Moderate power increase → **Class B**
+
+**🚀 Max-Spec Track Build**
+
+- Verified twin-turbos, verified ECU tune, verified nitrous, verified downpipe, verified aero splitter, unverified underglow
+- All 5 performance mods receive full credit. The cosmetic underglow contributes zero performance points regardless of verification.
+- Result: Massive synergy between turbo, nitrous, and supporting software pushes past the upper threshold → **Class S**, maximum rating boost applied
+
+***
+
+## Public Showroom Trust & VIN Verification
+
+The Carbase AI public showroom is a verified space. Every card that appears publicly is subject to the platform's **Verification Trust Index**.
+
+```
+[ Public Showroom Card ]
++------------------------------------+
+| 2023 Lamborghini Huracán           |
+| Overall: 92  |  Rank: Elite        |
+|                                    |
+|  [⚠️ UNVERIFIED SPECS & OWNER]     |
++------------------------------------+
+```
+
+### Verification States
+
+**✅ VIN Verified — Trusted Status**
+The user submitted their VIN, the system decoded registration metadata, and ownership was confirmed. The public card displays a **Verified Owner** badge. The community knows the specs and ownership are 100% authentic.
+
+**⚠️ Self-Reported — Unconfirmed Status**
+The user manually entered a vehicle without completing VIN verification. The card is published with a prominent **"Unverified Specs & Owner"** warning banner visible to all viewers. The data is self-reported and unconfirmed.
+
+### Showroom Case Studies
+
+**Case A — Verified Entry**
+A user adds a 2021 Porsche 911 Turbo S and completes VIN verification. The card publishes with a clean premium layout and a green Verified Owner badge. The community knows with certainty the car is real.
+
+**Case B — Self-Reported Entry**
+A user manually claims a 2023 Lamborghini Huracán STO but skips VIN verification. The card is visible privately but publishes to the showroom with a yellow unverified warning banner — protecting the community from unconfirmed claims.
 
 ***
 
 ## Modification Timeline
 
-Every verified mod is permanently timestamped to your build history. Your OVR Score timeline shows the exact progression of your build — every part, every boost, every milestone — visible to the community on your Car Card.
+Every verified mod is permanently timestamped to your build history. Your OVR Score timeline shows the full progression of your build — every part logged, every boost earned — visible to the community on your Car Card.
 
 ***
 

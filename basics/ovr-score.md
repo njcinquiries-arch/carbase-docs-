@@ -12,7 +12,7 @@ Your vehicle's score straight from the factory. Calculated purely from stock spe
 **🔧 Current Score**
 Your live OVR Score. It starts at your Baseline and climbs as you log and verify modifications to your build. The more you build, the higher it goes — up to the platform maximum of **100**.
 
-> A stock Ferrari and a built Civic can both score 100. The difference is how you got there.
+> A stock Civic might baseline around 30–36. A fully built one with every mod logged might reach 39. A stock Bugatti Chiron can approach 98. A 100 is nearly impossible by design — the score is meant to be hard to max.
 
 ***
 

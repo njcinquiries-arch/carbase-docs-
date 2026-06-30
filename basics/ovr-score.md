@@ -36,23 +36,43 @@ The weights are proprietary — but the principle is simple: **a car is scored o
 
 ## Case Studies
 
-### 🏔️ Off-Road Utility SUV (e.g., Toyota 4Runner)
+### 🏔️ Off-Road Utility SUV — Toyota 4Runner TRD Pro
 
-A 4Runner isn't built for lap times. It's built for trail capability, towing, and decades of reliability.
+The 4Runner was never designed to be fast. 270HP, a 7.5-second 0-60, and fuel economy in the low teens. Under a flat performance model, it would score poorly. Under the role-aware model, it's evaluated as what it actually is — a purpose-built off-road utility vehicle.
 
-- High domain priority: **Utility, Reliability**
-- Low domain priority: **Performance, Efficiency**
-- Result: Despite modest horsepower and average fuel economy, the 4Runner scores in the **low-80s baseline** — accurately rewarding what it actually does well.
+**Domain Scores:**
+
+| Domain | Score | Why |
+| ----------- | ----- | ---- |
+| 🏎️ Performance | 38/100 | Modest HP, slow acceleration — but that's not the point |
+| 🛡️ Safety | 74/100 | Solid crash ratings, decent suite of driver aids |
+| 🔩 Reliability | 96/100 | One of the most proven powertrains in automotive history |
+| 🛋️ Comfort | 62/100 | Capable interior, but dated refinement and road noise |
+| ⛽ Efficiency | 32/100 | Poor fuel economy — a known tradeoff for the platform |
+| 📦 Utility | 94/100 | Class-leading towing, off-road articulation, cargo capacity |
+| 🎯 Cohesion | 88/100 | Everything works exactly as intended for its role |
+
+**Outcome:** The system recognizes the 4Runner's role, applies heavy weight to Reliability and Utility, and minimizes the drag from poor Performance and Efficiency scores. The resulting baseline lands in the **mid-to-high 60s** — a respectable score that honestly reflects a capable, purpose-built truck. Not a sports car. Not trying to be.
 
 ***
 
-### 🏎️ High-Performance Supercar (e.g., Lamborghini Huracán)
+### 🏎️ High-Performance Supercar — Lamborghini Huracán EVO
 
-A Huracán isn't built for cargo space. It's built to go fast and feel alive.
+The Huracán scores a 38 on Utility. The trunk fits a laptop bag. The cabin at highway speed is loud. None of that matters — because Cohesion and Performance carry nearly all the weight under its classified role.
 
-- High domain priority: **Performance, Cohesion**
-- Low domain priority: **Utility, Comfort**
-- Result: The tiny trunk and firm ride don't drag the score down. The Huracán earns a baseline in the **low-to-mid 90s** — and poor cargo capacity doesn't cost it a single meaningful point.
+**Domain Scores:**
+
+| Domain | Score | Why |
+| ----------- | ----- | ---- |
+| 🏎️ Performance | 97/100 | 630HP, 2.9s 0-60, near-perfect lateral G figures |
+| 🛡️ Safety | 72/100 | Strong braking and stability systems, limited passive safety |
+| 🔩 Reliability | 58/100 | Exotic maintenance requirements, higher service frequency |
+| 🛋️ Comfort | 52/100 | Firm, loud, and unforgiving — intentionally so |
+| ⛽ Efficiency | 28/100 | 13 MPG combined — expected at this power level |
+| 📦 Utility | 18/100 | Essentially zero cargo, two seats, no practicality |
+| 🎯 Cohesion | 95/100 | Every system — aero, chassis, powertrain — built to one purpose |
+
+**Outcome:** The poor Utility and Comfort scores barely register. Under its supercar role weighting, Performance and Cohesion dominate. The Huracán earns a baseline in the **low-to-mid 80s** — elite, but not a perfect score. The reliability tradeoffs of exotic ownership keep it honest.
 
 ***
 

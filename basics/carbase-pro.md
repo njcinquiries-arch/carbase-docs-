@@ -1,36 +1,35 @@
-# 💎 Carbase Pro & VIP
+# 💎 Carbase Pro
 
-Carbase AI offers two premium tiers for builders who want the full platform experience.
+Carbase Pro is the premium membership for builders who want more — more cards, more customization, more access.
 
-***
-
-## Plan Comparison
-
-| Feature | Standard (Free) | CarBase Pro | VIP |
-| --------------------------------- | --------------- | ----------- | --------- |
-| 🔭 Discover Swipes | 10 / day | Unlimited | Unlimited |
-| 🚗 Garage Slots | 5 cars | 25 cars | Unlimited |
-| 🔐 Vault Slots | 1 card | 5 cards | 15 cards |
-| 🌐 Showroom Slots | 1 card | 10 cards | Unlimited |
-| 🔢 VIN Verifications | Fee per scan | Free (3/mo) | Unlimited free |
-| 🎨 Card Skins | Common / Uncommon | Pro + Epic skins | Grail + VIP + Legacy skins |
-| 🤖 AI Advisor Prompts | 3 / day | Unlimited | Unlimited |
-| 📲 QR Code Sticker Style | Standard layout | Custom branded | Custom branded + Holographic |
+VIN verification, photo scanning, and manual entry are available to all users at no cost.
 
 ***
 
-## Card Skins by Tier
+## What CarBase Pro Unlocks
 
-Card skins are applied directly to your Car Card face and backing. The skins you can access depend on your plan:
+| Feature | Free | CarBase Pro |
+| --------------------------------- | ---- | ----------- |
+| 🃏 Car Cards | 1 | Multiple |
+| 🔭 Discover Swipes | 10 / day | Unlimited |
+| 🤖 AI Advisor Prompts | 3 / day | Unlimited |
+| 🎨 Card Skins & Glows | Basic | Full customizable skin + glow library |
+| 📲 QR Code Style | Standard | Fully customizable |
 
-**Standard** — Common and Uncommon skins. Solid colors, matte textures, basic gradient meshes.
+***
 
-**CarBase Pro** — Unlocks Pro and Epic skin access. Anodized metallic wraps, carbon-fiber weaves, animated gradient shifts, iridescent color-flip finishes.
+## Card Skins & Glows
 
-**VIP** — Full access to every skin on the platform including Grail and Legacy exclusives. Liquid Gold, holographic chrome, full animated shader matrices — the rarest cosmetics on Carbase AI.
+CarBase Pro unlocks the full skin and glow library for your Car Card — elevated textures, metallic finishes, animated effects, and custom ambient glows that free users cannot access.
+
+***
+
+## Customizable QR Code
+
+Pro members get a fully customizable QR sticker — branded layouts, custom styling, and premium print formats beyond the standard design.
 
 ***
 
 ## How to Subscribe
 
-CarBase Pro and VIP are available via **Apple In-App Purchase**. Manage or cancel your subscription anytime through your Apple ID settings under Subscriptions.
+CarBase Pro is available via **Apple In-App Purchase**. Manage or cancel your subscription anytime through your Apple ID settings under Subscriptions.

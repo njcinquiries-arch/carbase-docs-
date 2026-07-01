@@ -1,6 +1,10 @@
 # ⭐ OVR Score
 
-The OVR Score is Carbase AI's proprietary vehicle rating — a number between 0 and 100 that reflects how well a vehicle performs **within its intended role**. It is not a flat performance leaderboard. A Toyota 4Runner and a Lamborghini Huracán can both earn elite scores — for completely different reasons.
+The OVR Score is Carbase AI's proprietary vehicle rating — a number between 0 and 100 that reflects how well a vehicle performs **within its intended role**. It is not a flat performance leaderboard. A Toyota 4Runner and a Lamborghini Huracán can both earn respectable scores — for completely different reasons.
+
+{% hint style="warning" %}
+**Note:** The formulas, weights, and coefficients detailed below are simplified conceptual representations used to illustrate the underlying principles of the rating model. The actual production Carbase AI engine employs a proprietary, non-linear multi-factor model, dynamic lookup maps, and private tuning constants to compute final scores.
+{% endhint %}
 
 ***
 
@@ -16,9 +20,19 @@ Your live score after verified modifications are applied. Mods are analyzed, wei
 
 ## How Scoring Works — Role-Aware Evaluation
 
-Carbase AI uses a **Dynamic Domain Weighting Model**. Every vehicle is first classified by its role, then evaluated across 7 performance domains. The weight each domain carries shifts based on what the vehicle was built to do.
+Instead of a flat performance scale, Carbase AI uses a **Dynamic Domain Weighting Model**. Every vehicle is first classified by its role, then evaluated across 7 domains. The weight each domain carries shifts based on what the vehicle was built to do — ensuring off-road trucks are not penalized for poor cornering, and supercars are not penalized for lack of cargo capacity.
 
-**The 7 Evaluation Domains:**
+The conceptual formula:
+
+```
+R = min(100, Σ (Sd × Wd,role))
+```
+
+Where `Sd` is the vehicle's raw score in each domain, and `Wd,role` is the weight applied to that domain for the vehicle's classified role. All weights sum to 1.0.
+
+***
+
+## The 7 Evaluation Domains
 
 | Domain | What It Measures |
 | ----------- | ------------------------------------------------- |
@@ -30,72 +44,82 @@ Carbase AI uses a **Dynamic Domain Weighting Model**. Every vehicle is first cla
 | 📦 Utility | Cargo capacity, towing, practicality |
 | 🎯 Cohesion | How well all systems work together as a package |
 
-The weights are proprietary — but the principle is simple: **a car is scored on what it was designed to be.**
+***
+
+## Dynamic Weighting Matrix
+
+| Vehicle Role | Performance | Safety | Reliability | Comfort | Efficiency | Utility | Cohesion |
+| -------------------- | ----------- | ------ | ----------- | ------- | ---------- | ------- | -------- |
+| Utility / Off-Road | 0.05 | 0.20 | 0.25 | 0.10 | 0.05 | 0.25 | 0.10 |
+| Luxury Sedan / Daily | 0.10 | 0.20 | 0.15 | 0.25 | 0.15 | 0.10 | 0.05 |
+| Supercar / Hypercar | 0.45 | 0.10 | 0.05 | 0.05 | 0.05 | 0.05 | 0.25 |
 
 ***
 
-## Case Studies
+## Case Studies — Utilization-Based Ratings
 
 ### 🏔️ Off-Road Utility SUV — Toyota 4Runner TRD Pro
 
-The 4Runner was never designed to be fast. 270HP, a 7.5-second 0-60, and fuel economy in the low teens. Under a flat performance model, it would score poorly. Under the role-aware model, it's evaluated as what it actually is — a purpose-built off-road utility vehicle.
+**Role weights:** Heavy emphasis on Utility (0.25) and Reliability (0.25). Low emphasis on Performance (0.05) and Efficiency (0.05).
 
-**Domain Scores:**
+**Domain scores:**
 
 | Domain | Score | Why |
 | ----------- | ----- | ---- |
-| 🏎️ Performance | 38/100 | Modest HP, slow acceleration — but that's not the point |
-| 🛡️ Safety | 74/100 | Solid crash ratings, decent suite of driver aids |
+| 🏎️ Performance | 38/100 | Not built for speed — modest HP, slow acceleration |
+| 🛡️ Safety | 74/100 | Solid crash ratings, decent driver aids |
 | 🔩 Reliability | 96/100 | One of the most proven powertrains in automotive history |
 | 🛋️ Comfort | 62/100 | Capable interior, but dated refinement and road noise |
 | ⛽ Efficiency | 32/100 | Poor fuel economy — a known tradeoff for the platform |
 | 📦 Utility | 94/100 | Class-leading towing, off-road articulation, cargo capacity |
 | 🎯 Cohesion | 88/100 | Everything works exactly as intended for its role |
 
-**Outcome:** The system recognizes the 4Runner's role, applies heavy weight to Reliability and Utility, and minimizes the drag from poor Performance and Efficiency scores. The resulting baseline lands in the **mid-to-high 60s** — a respectable score that honestly reflects a capable, purpose-built truck. Not a sports car. Not trying to be.
+**Baseline Score: ~66 OVR**
+The role-aware model protects the 4Runner from being crushed by poor fuel economy and speed metrics. However, its aerodynamic profile, weight, and highway comfort limits act as a structural ceiling.
+
+**With Verified Off-Road Mods** (lift kits, heavy-duty suspension, air lockers): climbs into the **mid-70s (74–76 OVR)**.
+
+**Capped Ceiling:** The system ensures a utility truck can never reach Elite status (80+). True Elite is reserved for vehicles with higher multi-domain capability. This keeps the scoring honest.
 
 ***
 
-### 🏎️ High-Performance Supercar — Lamborghini Huracán EVO
+### 🏎️ High-Performance Supercar — Lamborghini Huracán
 
-The Huracán scores a 38 on Utility. The trunk fits a laptop bag. The cabin at highway speed is loud. None of that matters — because Cohesion and Performance carry nearly all the weight under its classified role.
+**Role weights:** High priority on Performance (0.45) and Cohesion (0.25). Low priority on Utility (0.05) and Comfort (0.05).
 
-**Domain Scores:**
+**Domain scores:**
 
 | Domain | Score | Why |
 | ----------- | ----- | ---- |
-| 🏎️ Performance | 97/100 | 630HP, 2.9s 0-60, near-perfect lateral G figures |
+| 🏎️ Performance | 98/100 | 630HP, 2.9s 0-60, near-perfect lateral G figures |
 | 🛡️ Safety | 72/100 | Strong braking and stability systems, limited passive safety |
 | 🔩 Reliability | 58/100 | Exotic maintenance requirements, higher service frequency |
-| 🛋️ Comfort | 52/100 | Firm, loud, and unforgiving — intentionally so |
+| 🛋️ Comfort | 55/100 | Firm, loud, and unforgiving — intentionally so |
 | ⛽ Efficiency | 28/100 | 13 MPG combined — expected at this power level |
-| 📦 Utility | 18/100 | Essentially zero cargo, two seats, no practicality |
-| 🎯 Cohesion | 95/100 | Every system — aero, chassis, powertrain — built to one purpose |
+| 📦 Utility | 20/100 | Essentially zero cargo, two seats, no practicality |
+| 🎯 Cohesion | 96/100 | Every system — aero, chassis, powertrain — built to one purpose |
 
-**Outcome:** The poor Utility and Comfort scores barely register. Under its supercar role weighting, Performance and Cohesion dominate. The Huracán earns a baseline in the **low-to-mid 80s** — elite, but not a perfect score. The reliability tradeoffs of exotic ownership keep it honest.
+**Baseline Score: low-to-mid 90s OVR**
+The poor Utility and Comfort scores barely register under supercar role weighting. Performance and Cohesion dominate. The exotic maintenance tradeoffs keep it honest — a perfect 100 remains out of reach.
 
 ***
 
 ## Modification Impact & Rating Boost
 
-When you add mods to your build, Carbase AI's engine analyzes each modification and assigns it to a functional category. Each category carries a performance coefficient that contributes to your total power and torque gains.
+When you add mods, Carbase AI's engine analyzes each modification and assigns it to a functional category. Each category carries a performance coefficient contributing to your total power and torque gains.
 
 ### 📸 The Verification Confidence Factor
-
-Not all mods are treated equally. Verification directly affects how much credit a mod receives:
 
 | Verification Status | Performance Credit |
 | ------------------- | ------------------ |
 | ✅ Verified (with installation photo) | 100% of estimated impact |
 | ⚠️ Unverified (text only) | 50% of estimated impact |
 
-> If you claim an ECU tune but don't provide a photo or receipt, the engine still credits you — but at half weight. Verify your mods to get full credit.
+> If you claim an ECU tune but don't provide a photo or receipt, the engine still credits you — at half weight. Verify your mods to get full credit.
 
 ***
 
 ## HUD Studio Class Rating
-
-Every build carries a **Class Rating** on your Car Card's HUD — a letter grade that reflects the cumulative performance gains from your verified modifications.
 
 | Class | Build Level |
 | ----- | ----------------------------------------- |
@@ -109,21 +133,19 @@ Every build carries a **Class Rating** on your Car Card's HUD — a letter grade
 
 **🔧 The Bolt-On Street Build**
 
-- 1 verified intake, 1 verified exhaust, 1 unverified ECU tune
-- The intake and exhaust receive full credit. The unverified tune receives 50% credit.
-- Result: Moderate power increase → **Class B**
+* Mods: 1 verified intake, 1 verified exhaust, 1 **unverified** ECU tune
+* The intake and exhaust receive 100% credit. The unverified tune receives 50% credit.
+* Result: Moderate power increase → **Class B**, minor rating boost
 
 **🚀 Max-Spec Track Build**
 
-- Verified twin-turbos, verified ECU tune, verified nitrous, verified downpipe, verified aero splitter, unverified underglow
-- All 5 performance mods receive full credit. The cosmetic underglow contributes zero performance points regardless of verification.
-- Result: Massive synergy between turbo, nitrous, and supporting software pushes past the upper threshold → **Class S**, maximum rating boost applied
+* Mods: Verified twin-turbos, verified ECU tune, verified nitrous, verified downpipe, verified aero splitter, unverified underglow
+* All 5 performance mods receive full credit. Cosmetic underglow contributes zero performance points regardless of verification status.
+* Result: Twin-turbo synergy combined with nitrous and supporting software pushes past the upper threshold → **Class S**, maximum rating boost applied
 
 ***
 
 ## Public Showroom Trust & VIN Verification
-
-The Carbase AI public showroom is a verified space. Every card that appears publicly is subject to the platform's **Verification Trust Index**.
 
 ```
 [ Public Showroom Card ]
@@ -135,21 +157,18 @@ The Carbase AI public showroom is a verified space. Every card that appears publ
 +------------------------------------+
 ```
 
-### Verification States
-
-**✅ VIN Verified — Trusted Status**
-The user submitted their VIN, the system decoded registration metadata, and ownership was confirmed. The public card displays a **Verified Owner** badge. The community knows the specs and ownership are 100% authentic.
-
-**⚠️ Self-Reported — Unconfirmed Status**
-The user manually entered a vehicle without completing VIN verification. The card is published with a prominent **"Unverified Specs & Owner"** warning banner visible to all viewers. The data is self-reported and unconfirmed.
+| Status | Badge | What It Means |
+| ------ | ----- | ------------- |
+| ✅ VIN Verified | 🟢 Verified Owner | VIN decoded, ownership confirmed, specs are 100% authentic |
+| ⚠️ Self-Reported | 🟡 Unverified Specs & Owner | Manually entered, unconfirmed against registration databases |
 
 ### Showroom Case Studies
 
 **Case A — Verified Entry**
-A user adds a 2021 Porsche 911 Turbo S and completes VIN verification. The card publishes with a clean premium layout and a green Verified Owner badge. The community knows with certainty the car is real.
+A user adds a 2021 Porsche 911 Turbo S and completes VIN verification. The card publishes with a clean premium layout and a green Verified Owner badge. The community knows with certainty the car and specs are genuine.
 
 **Case B — Self-Reported Entry**
-A user manually claims a 2023 Lamborghini Huracán STO but skips VIN verification. The card is visible privately but publishes to the showroom with a yellow unverified warning banner — protecting the community from unconfirmed claims.
+A user manually claims a 2023 Lamborghini Huracán STO but skips VIN verification. The card is visible privately, but publishing to the showroom places a prominent yellow "Unverified Specs & Owner" banner across it — protecting the community from unconfirmed claims.
 
 ***
 

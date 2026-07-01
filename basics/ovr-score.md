@@ -108,14 +108,20 @@ The poor Utility and Comfort scores barely register under supercar role weightin
 
 When you add mods, Carbase AI's engine analyzes each modification and assigns it to a functional category. Each category carries a performance coefficient contributing to your total power and torque gains.
 
-### 📸 The Verification Confidence Factor
+### 📸 Mod Verification Requirement
 
-| Verification Status | Performance Credit |
-| ------------------- | ------------------ |
-| ✅ Verified (with installation photo) | 100% of estimated impact |
-| ⚠️ Unverified (text only) | 50% of estimated impact |
+Mods must be verified to contribute to your OVR Score. Verification requires at least one of the following:
 
-> If you claim an ECU tune but don't provide a photo or receipt, the engine still credits you — at half weight. Verify your mods to get full credit.
+* 🧾 **Receipt** — purchase receipt from the shop or retailer
+* 🔗 **Product Link** — direct URL to the part from any major aftermarket retailer
+* 📸 **Installation Photo** — photo proof of the mod on your vehicle
+
+| Verification Status | Score Impact |
+| ------------------- | ------------ |
+| ✅ Verified | 100% performance credit applied to OVR Score |
+| ⚠️ Unverified | Zero score credit — appears on timeline as flagged, does not affect OVR |
+
+> An unverified mod is visible on your build timeline so the community can see what you claim — but it counts for nothing until proven. Verification is what separates a real build from a spec sheet.
 
 ***
 
@@ -134,14 +140,14 @@ When you add mods, Carbase AI's engine analyzes each modification and assigns it
 **🔧 The Bolt-On Street Build**
 
 * Mods: 1 verified intake, 1 verified exhaust, 1 **unverified** ECU tune
-* The intake and exhaust receive 100% credit. The unverified tune receives 50% credit.
-* Result: Moderate power increase → **Class B**, minor rating boost
+* The intake and exhaust receive full credit. The unverified ECU tune appears on the build timeline marked ⚠️ unverified — it adds zero to the OVR Score until verified with a receipt, link, or photo.
+* Result: Intake + exhaust gains only → **Class B**, minor rating boost. The tune is visible on the timeline but does nothing until proven.
 
 **🚀 Max-Spec Track Build**
 
 * Mods: Verified twin-turbos, verified ECU tune, verified nitrous, verified downpipe, verified aero splitter, unverified underglow
-* All 5 performance mods receive full credit. Cosmetic underglow contributes zero performance points regardless of verification status.
-* Result: Twin-turbo synergy combined with nitrous and supporting software pushes past the upper threshold → **Class S**, maximum rating boost applied
+* All 5 performance mods are fully credited. The unverified underglow appears on the timeline as ⚠️ unverified — cosmetic or not, it contributes zero to the score.
+* Result: Twin-turbo synergy with nitrous and supporting software pushes past the upper threshold → **Class S**, maximum rating boost applied
 
 ***
 

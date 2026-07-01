@@ -1,39 +1,48 @@
 # 🔐 The Vault
 
-The Vault is your digital binder for high-value Car Cards — a locked, protected space separate from your active garage.
+The Vault is Carbase AI's global community showroom — the same space as the Discover tab, viewed from a different angle. It's where verified builds from across the platform live publicly, available for anyone to browse, swipe, and explore.
 
 ***
 
-## What the Vault Does
+## How It Works
 
-- **Locks cards** from accidental modification or trade actions
-- **Controls public visibility** — choose which cards appear in the global showroom
-- **Preserves your best builds** with a dedicated display layer
+Every car card set to **Public** by its owner appears in the Vault database. The Vault and the Discover tab pull from the same pool — the Vault is the database, Discover is how you browse it.
 
 ***
 
-## Vault Slots
+## Clicking Into a Card
 
-Vault slots are unlocked through XP progression or premium subscriptions.
+When you tap any car card in the Vault or Discover feed, you're taken to that vehicle's **full card page**:
 
-| Plan | Vault Slots |
-| ------------ | ----------- |
-| Standard | 1 slot |
-| CarBase Pro | 5 slots |
-| VIP | 15 slots |
+* Complete OVR Score breakdown
+* Full verified modification timeline (baseline → current)
+* HUD Class Rating badge
+* Build photos and part details
+* Owner's username and crew affiliation
 
-***
-
-## Public Showroom Permissions
-
-Cards placed in the Vault can be set to one of two visibility states:
-
-**🌐 Public** — The card is visible in the global showroom. VIN-verified cards display a ✅ **Verified Owner** badge. Unverified cards display a ⚠️ **"Unverified Specs & Owner"** banner — the card is still fully public, but the community can see it has not been confirmed against registration data.
-
-**🔒 Private** — The card stays in your local garage only and does not appear in the public showroom.
+If the owner's showroom is set to **Public**, you can tap through to enter their **personal showroom** — seeing all the cards they've made public, their full garage, and their build history.
 
 ***
 
-## Locked Status
+## Verification in the Vault
 
-Once a card is placed in the Vault, it is marked as **Locked**. Locked cards cannot be modified or traded until manually removed from the Vault. This protects your flagship builds from accidental changes.
+Cards in the Vault display their verification status clearly:
+
+| Status | Badge | Meaning |
+| ------ | ----- | ------- |
+| ✅ VIN Verified | 🟢 Verified Owner | Ownership and specs confirmed — 100% authentic |
+| ⚠️ Self-Reported | 🟡 Unverified Specs & Owner | Manually entered, not confirmed against registration data |
+
+Unverified cards are still visible publicly — transparency is enforced, not visibility restricted. The community sees the build and knows what's been proven.
+
+***
+
+## Vault Slots (Personal Showroom)
+
+Your personal showroom slots control how many of your own cards you can display publicly in the Vault at once:
+
+| Plan | Public Showroom Slots |
+| ------------ | --------------------- |
+| Free | 1 card |
+| CarBase Pro | 10 cards |
+| VIP | Unlimited |

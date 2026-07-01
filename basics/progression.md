@@ -6,13 +6,18 @@ Carbase AI features a full progression system that rewards you for building, ver
 
 ## Earning XP
 
-XP (Experience Points) is earned through activity across the platform:
+XP (Experience Points) is earned through activity across the platform. The best and fastest way to earn XP is by staying active in the community — joining Crews, interacting with other profiles, and using the app consistently every day.
 
-- ✅ Completing VIN verification
-- 🔧 Logging and verifying modifications
-- 👥 Completing Crew challenges
-- 📍 Checking in at meetups
-- 🏆 Hitting build milestones
+| Activity | XP Earned |
+| -------- | --------- |
+| 👥 Joining and participating in Crews | ⭐⭐⭐ High |
+| 💬 Interacting with other user profiles and builds | ⭐⭐⭐ High |
+| 📅 Daily app activity | ⭐⭐ Medium |
+| 📍 Checking in at meetups | ⭐⭐ Medium |
+| 🏆 Completing Crew daily challenges | ⭐⭐⭐ High |
+| ✅ Completing VIN verification | ⭐⭐ Medium |
+| 🔧 Logging and verifying modifications | ⭐⭐ Medium |
+| 🏅 Hitting build milestones | ⭐ Bonus |
 
 ***
 

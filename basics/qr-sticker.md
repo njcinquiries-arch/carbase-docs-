@@ -24,7 +24,7 @@ Place the sticker on your window, bumper, or at a car meet — anyone who scans 
 
 - Exported directly from your Car Card screen
 - Designed for print — high resolution, clean layout
-- Can be placed on your windshield, rear bumper, or anywhere visible at shows and meets
+- Can be placed anywhere on your vehicle — windshield, bumper, hood, trunk, side panels, or wherever you see fit
 - Each sticker is unique to your specific Car Card
 
 ***

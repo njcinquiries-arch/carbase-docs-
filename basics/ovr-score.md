@@ -174,7 +174,7 @@ Mods must be verified to contribute to your OVR Score. Verification requires at 
 A user adds a 2021 Porsche 911 Turbo S and completes VIN verification. The card publishes with a clean premium layout and a green Verified Owner badge. The community knows with certainty the car and specs are genuine.
 
 **Case B — Self-Reported Entry**
-A user manually claims a 2023 Lamborghini Huracán STO but skips VIN verification. The card is visible privately, but publishing to the showroom places a prominent yellow "Unverified Specs & Owner" banner across it — protecting the community from unconfirmed claims.
+A user manually claims a 2023 Lamborghini Huracán STO but skips VIN verification. The card is still visible publicly in the showroom — but carries a prominent yellow "Unverified Specs & Owner" banner. The community can see the card and the build, but knows the specs and ownership have not been confirmed. Visibility is not restricted — transparency is enforced instead.
 
 ***
 

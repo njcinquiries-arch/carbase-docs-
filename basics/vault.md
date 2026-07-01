@@ -28,7 +28,7 @@ Vault slots are unlocked through XP progression or premium subscriptions.
 
 Cards placed in the Vault can be set to one of two visibility states:
 
-**🌐 Public** — The card is visible in the global showroom. VIN-verified cards display a **Verified Owner** badge. Unverified cards display a yellow **"Unverified Specs & Owner"** banner visible to all viewers.
+**🌐 Public** — The card is visible in the global showroom. VIN-verified cards display a ✅ **Verified Owner** badge. Unverified cards display a ⚠️ **"Unverified Specs & Owner"** banner — the card is still fully public, but the community can see it has not been confirmed against registration data.
 
 **🔒 Private** — The card stays in your local garage only and does not appear in the public showroom.
 

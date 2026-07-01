@@ -1,6 +1,6 @@
 # 🎁 Car Packs
 
-Car Packs are the fastest way to collect accessories for your Car Card. Each pack contains randomized virtual items — backgrounds, frames, badges, stickers, and effects — used to customize how your vehicle appears on the platform.
+Car Packs are how you build your collection of **Card Skins** — visual customizations applied directly to your Car Card face and backing. Each pack contains randomized items pulled from a rarity pool determined by the pack tier.
 
 Packs are purchased via Apple Pay or any payment method supported by Apple In-App Purchase. **All sales are final.**
 
@@ -8,64 +8,70 @@ Packs are purchased via Apple Pay or any payment method supported by Apple In-Ap
 
 ## Pack Tiers
 
+### 🥉 Bronze Pack
+
+Entry level. Good for new collectors getting started.
+
+* Rarity pool: Common, Uncommon card skins and basic accessories
+* Best for: first-time openers, low-risk collecting
+
+***
+
 ### 🥈 Silver Pack
 
-The entry-level pack. Great for new collectors.
+A step up — introduces Rare drops into the pool.
 
-* Contains 3 accessories
-* Rarity pool: Common, Uncommon
-* **Price: $1.99**
+* Rarity pool: Common, Uncommon, Rare
+* Includes: neon glow kits, elevated skin textures
 
 ***
 
 ### 🥇 Gold Pack
 
-Step up your Car Card with rarer drops.
+Mid-to-high tier. Epic skins enter the pool.
 
-* Contains 4 accessories
-* Rarity pool: Common, Uncommon, Rare
-* Guaranteed: 1 Rare minimum
-* **Price: $3.99**
-
-***
-
-### 💎 Ruby Pack
-
-High-tier pack for serious collectors.
-
-* Contains 5 accessories
 * Rarity pool: Uncommon, Rare, Epic
-* Guaranteed: 1 Epic minimum
-* **Price: $7.99**
+* Includes: premium wraps, engine swap cosmetics, animated overlays
 
 ***
 
-### 💠 Diamond Pack
+### 💚 Emerald Pack
 
-The rarest pack on the platform.
+The highest tier. Grail-level drops are in play.
 
-* Contains 5 accessories
-* Rarity pool: Rare, Epic, Legendary
-* Guaranteed: 1 Legendary minimum
-* **Price: $14.99**
+* Rarity pool: Rare, Epic, Legendary, Grail
+* Includes: Liquid Gold skins, holographic chrome, animated shader matrices — the rarest items on the platform
+
+***
+
+## Volatility Mode
+
+Before opening any pack, you choose your **risk profile:**
+
+**🟢 Normal Volatility**
+Standard, steady drop rates. Consistent odds across the rarity pool. Lower variance — you'll pull predictably across tiers.
+
+**🔴 Elevated Volatility**
+High-risk, high-reward. Common items drop more frequently — but the odds of pulling a top-tier Grail or Legendary item spike significantly. Boom or bust.
 
 ***
 
 ## Rarity Tiers
 
-| Rarity        | Description                                        |
-| ------------- | -------------------------------------------------- |
-| ⚪ Common      | Standard accessories available across all packs    |
-| 🟢 Uncommon    | Elevated designs with more detail                  |
-| 🔵 Rare        | Limited visual styles, harder to obtain            |
-| 🟣 Epic        | Premium animated or themed accessories             |
-| 🟠 Legendary   | Ultra-rare, exclusive drops with unique effects    |
+| Rarity | Description |
+| ----------- | -------------------------------------------------- |
+| ⚪ Common | Standard skins, solid colors, basic textures |
+| 🟢 Uncommon | Elevated designs, gloss and brushed finishes |
+| 🔵 Rare | Limited visual styles, neon kits, metallic wraps |
+| 🟣 Epic | Animated gradient shifts, iridescent finishes |
+| 🟠 Legendary | Holographic chrome, animated shader matrices |
+| ✨ Grail | Platform-exclusive ultra-rares — Liquid Gold, Legacy skins |
 
 ***
 
 ## Important Notes
 
-* All pack contents are virtual and non-transferable
+* All pack contents are virtual card skins and accessories — non-transferable
 * Duplicate items may appear — no duplicate protection at this time
 * Pack contents cannot be refunded once opened
 * Carbase AI does not guarantee specific items from any pack

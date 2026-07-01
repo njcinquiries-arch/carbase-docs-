@@ -4,17 +4,9 @@ When you open Carbase AI for the first time, you'll set up your vehicle identity
 
 ***
 
-## 1. 📷 Photo Scanner *(Recommended)*
+## 1. 🔢 VIN Verification *(Recommended)*
 
-Point your camera at your vehicle or license plate. Carbase AI's AI vision will automatically detect your make, model, year, trim level, and available specs.
-
-This is the fastest and most accurate method.
-
-***
-
-## 2. 🔢 VIN Verification *(Recommended)*
-
-Enter your 17-character Vehicle Identification Number. Carbase AI cross-references licensed automotive databases to pull your factory specs, trim details, recall history, and baseline configuration.
+The most accurate and reliable method. Enter your 17-character Vehicle Identification Number and Carbase AI cross-references licensed automotive databases to pull your factory specs, trim details, recall history, and baseline configuration directly from the source.
 
 **You can find your VIN:**
 
@@ -24,10 +16,16 @@ Enter your 17-character Vehicle Identification Number. Carbase AI cross-referenc
 
 ***
 
-## 3. ✍️ Manual Entry *(Least Recommended)*
+## 2. 📷 Photo Scanner
 
-Enter your vehicle details manually — make, model, year, trim, and specs. This option is available if scanning or VIN lookup doesn't work, but may result in less accurate OVR Score calculations.
+Point your camera at your vehicle or license plate. Carbase AI's AI vision will attempt to identify your make, model, year, and trim level from the image. A convenient option when your VIN isn't handy, though results may vary depending on image quality, angle, and vehicle visibility.
 
 ***
 
-Once your vehicle is verified, your Car Card is created and your baseline OVR Score is calculated.
+## 3. ✍️ Manual Entry *(Not Recommended)*
+
+Enter your vehicle details manually — make, model, year, trim, and specs. This option is available as a fallback for custom, vintage, or rare vehicles, but may result in less accurate OVR Score calculations since specs are self-reported and unverified.
+
+***
+
+Once your vehicle is set up, your Car Card is created and your baseline OVR Score is calculated.

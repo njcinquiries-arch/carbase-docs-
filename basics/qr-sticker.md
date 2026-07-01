@@ -32,10 +32,12 @@ Place the sticker on your window, bumper, or at a car meet — anyone who scans 
 ## What Happens When It's Scanned
 
 **If the viewer has Carbase AI installed:**
-The app launches and displays your Car Card in full interactive 3D. They can inspect your engine bay specs, scroll through your full modification log, view your OVR Score breakdown, and see your build timeline.
+The app launches and displays your Car Card in full interactive 3D. They can inspect your engine bay specs, scroll through your full modification log, view your OVR Score breakdown, and see your complete build timeline.
 
 **If the viewer does not have the app:**
-They are directed to the App Store to download Carbase AI. Your sticker becomes a direct acquisition funnel — every scan at a car meet is a potential new user.
+Their default browser (Safari, Chrome, etc.) opens a web preview of your Car Card — showing your 3D card, OVR Score, active skins, and vehicle specs displayed behind the card. It's a real, visual first impression of your build without requiring anything to be installed.
+
+To go deeper — full modification log, build timeline, crew affiliation, and community interaction — the viewer is prompted to download Carbase AI. Every scan becomes a natural acquisition moment, turning your physical car into a discovery point for the platform.
 
 ***
 

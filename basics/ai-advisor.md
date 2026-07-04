@@ -2,7 +2,7 @@
 
 The AI Advisor isn't a generic chatbot. It's a purpose-built automotive intelligence — six months in the making — trained on real build logs, mod compatibility data, dyno results, suspension geometry, and thousands of real-world car conversations. It knows the difference between a street build and a track setup. It knows what breaks first when you push a stock turbo past its limits. It knows your specific car, your verified mods, and your goals.
 
-This is your personal car mentor. Available 24/7. Powered by Gemini 2.5 Flash.
+Your car. Your build. Your advisor — running on the most advanced AI models available.
 
 ***
 

@@ -25,9 +25,16 @@ Your car. Your build. Your advisor — running on the most advanced AI models av
 **Diagnostics & Inspection**
 
 * Analyzes photos you upload to identify wear, damage, or abnormal conditions
-* Decodes dashboard warning lights — including complex multi-code OBD2 scenarios
+* Decodes any dashboard warning light — check engine, ABS, TPMS, oil pressure, battery, and beyond — including complex multi-code OBD2 scenarios
 * Walks you through step-by-step inspection processes
 * Helps you understand what a mechanic's quote actually covers — so you never get overcharged
+
+**Insurance & Ownership**
+
+* Answers general questions about auto insurance coverage, claims, and what policies typically cover for modified vehicles
+* Explains how modifications can affect your insurance and what to disclose to your provider
+* Helps you understand registration, titling, and emissions requirements for your state or region
+* Guides you through accident documentation, total loss situations, and what to expect from the claims process
 
 **Live Part Search**
 
@@ -83,4 +90,14 @@ When you ask about parts or modifications, the Advisor pulls real-time results f
 
 ## ⚠️ Disclaimer
 
-AI Advisor recommendations are for **informational purposes only**. They do not constitute professional automotive, mechanical, or safety advice. Always consult a qualified mechanic or certified installer before making any modifications to your vehicle. Modifications may affect safety, void warranties, and may be subject to local laws and regulations.
+The AI Advisor is provided for **informational and educational purposes only**. Nothing provided by the AI Advisor constitutes professional mechanical, automotive, safety, legal, financial, or insurance advice.
+
+By using the AI Advisor, you acknowledge and agree that:
+
+* **Carbase and Velto Enterprises are not liable** for any damage, injury, loss, or expense resulting from actions taken based on AI Advisor responses
+* All modification, repair, and maintenance decisions are made **at your own risk** — always consult a licensed mechanic or certified installer before performing work on your vehicle
+* Insurance-related information is **general in nature** and does not constitute advice from a licensed insurance professional. Contact your insurer directly for guidance specific to your policy
+* Responses regarding warning lights, diagnostics, or vehicle conditions are **not a substitute for a professional inspection** by a qualified technician
+* Modifications may affect vehicle safety, void manufacturer warranties, and may be subject to local, state, or federal laws and regulations
+
+Carbase and Velto Enterprises make no representations or warranties regarding the accuracy, completeness, or applicability of any information provided by the AI Advisor. Use of this feature constitutes acceptance of these terms.

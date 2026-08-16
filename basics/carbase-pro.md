@@ -20,7 +20,6 @@
 | 🚗 **Active Showcase Card Slots** | 1 Active Card | **Multiple Multi-Car Showroom Slots** |
 | 🎁 **Free Daily Card Pack** | ❌ None | **Free Daily Silver Pack ($60/mo value)** |
 | 🤖 **Resident AI Advisor** | Basic Rate Limits | **Unlimited 24/7 Access with Multi-Car Memory** |
-| 🎨 **AI Designer Studio** | Preview Only | **Full High-Res Generation & Camera Roll Export** |
 | 📸 **Showcase Media Limits** | 2 Photos per build | **9 Photos + 4 High-Def Exhaust Video Clips** |
 | 🔐 **The Vault Pack Pulls** | Standard Rates | **Exclusive Elevated Odds Event Access** |
 | 🏆 **Profile Styling** | Standard Member | **Exclusive Gold PRO Badge & Holographic Sheen** |
@@ -30,4 +29,4 @@
 
 ## How to Upgrade
 
-Open your **Profile** or tap any locked PRO feature (such as the Designer Studio or adding a second vehicle) to launch the **Carbase PRO Paywall Sheet**. Confirm with FaceID / TouchID to unlock all PRO benefits immediately.
+Open your **Profile** or tap any locked PRO feature (such as adding a second vehicle) to launch the **Carbase PRO Paywall Sheet**. Confirm with FaceID / TouchID to unlock all PRO benefits immediately.

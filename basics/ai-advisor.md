@@ -40,7 +40,6 @@ The Advisor has direct access to specialized tools to provide context-aware resp
 |---|---|---|
 | **Daily Prompts** | Limited Daily Access | **Unlimited 24/7 Access** |
 | **Garage Memory** | Single Active Car | **Full Multi-Car Garage Context** |
-| **Designer Studio Access** | Preview Only | **Full Rendering Capability** |
 | **Response Priority** | Standard Queue | **Priority VIP Stream** |
 
 ---

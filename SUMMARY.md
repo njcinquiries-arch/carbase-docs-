@@ -10,7 +10,7 @@
 * [🔧 Logging Modifications](basics/add-mod.md)
 * [⭐ OVR Score & Rating Engine](basics/ovr-score.md)
 * [🤖 Resident Automotive Advisor](basics/ai-advisor.md)
-* [🎨 Customization & Designer Studio](basics/customization-studio.md)
+* [🎨 Customization & 3D Styling](basics/customization-studio.md)
 * [🔐 The Vault & Card Pack Openings](basics/vault.md)
 * [📲 Car Codes & Windshield Decals](basics/qr-sticker.md)
 * [📈 XP, Levels & Badges](basics/progression.md)

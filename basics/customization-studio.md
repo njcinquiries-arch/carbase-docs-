@@ -1,15 +1,6 @@
-# 🎨 Customization & Designer Studio
+# 🎨 Customization & 3D Styling
 
-The **Customization & Designer Studio** in Carbase is your full visual and generative design suite, allowing you to customize your 3D Car Card and visualize custom concept modifications in ultra-high fidelity.
-
----
-
-## 🖼️ AI Designer Studio (Studio Vision)
-
-Accessible through the Advisor and Discover tabs, the **Designer Studio** uses generative AI vision to render concept modifications on your vehicle:
-* **Dark Studio Lighting:** Positions your exact vehicle in a professional dark-stage automotive showroom.
-* **Custom Modification Stacking:** Select aero splitters, custom widebody fenders, carbon-fiber hoods, forged wheels, track wings, or suspension drops.
-* **Camera Roll Export:** Save high-resolution concept renders directly to your phone's photo gallery.
+The **Customization & 3D Styling** tools in Carbase allow you to personalize your 3D Car Card, making your vehicle's digital identity unique and visually striking.
 
 ---
 

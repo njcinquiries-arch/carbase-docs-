@@ -1,189 +1,70 @@
-# ⭐ OVR Score
+# ⭐ OVR Score & Rating Engine
 
-The OVR Score is Carbase AI's proprietary vehicle rating — a number between 0 and 100 that reflects how well a vehicle performs **within its intended role**. It is not a flat performance leaderboard. A Toyota 4Runner and a Lamborghini Huracán can both earn respectable scores — for completely different reasons.
+The **OVR Score** is Carbase's proprietary, role-calibrated vehicle rating — a metric between **0 and 100** that evaluates how comprehensively a vehicle performs within its designated category and build intent.
 
-{% hint style="warning" %}
-**Note:** The formulas, weights, and coefficients detailed below are simplified conceptual representations used to illustrate the underlying principles of the rating model. The actual production Carbase AI engine employs a proprietary, non-linear multi-factor model, dynamic lookup maps, and private tuning constants to compute final scores.
-{% endhint %}
+Rather than an arbitrary horsepower-only ranking, the Carbase engine applies non-linear evaluation models, diminishing returns, and build coherence bonuses.
 
-***
+---
 
-## Baseline vs. Current Score
+## Rank Tiers & Badges
 
-**📦 Baseline Score**
-Your vehicle's score as it left the factory. Calculated from stock specs and evaluated against its classified role. This never changes.
+Every vehicle dynamically ranks into one of 6 core tiers (plus an uncapped Signature status for master builds):
 
-**🔧 Current Score**
-Your live score after verified modifications are applied. Mods are analyzed, weighted, and factored in — pushing your Current Score above your Baseline based on what you've actually built and proven.
+| Score Range | Tier Rank | Description |
+|---|---|---|
+| **0 – 39** | ⚪ **Rookie** | Stock baseline entry, minimal modifications logged |
+| **40 – 54** | 🟢 **Amateur** | Light bolt-on upgrades, initial build phase |
+| **55 – 69** | 🔵 **Contender** | Balanced street build with supporting modifications |
+| **70 – 84** | 🟣 **Advanced** | Heavy bolt-ons, custom forced induction, suspension & brake upgrades |
+| **85 – 94** | 🟡 **Elite** | High-spec track weapons, exotic platforms, full multi-domain coherence |
+| **95 – 100** | 🔴 **Champion** | Master-tier, track-proven or pristine competition-grade builds |
+| **100+** | ⭐ **Signature** | Special uncapped prestige for verified landmark community builds |
 
-***
+---
 
-## How Scoring Works — Role-Aware Evaluation
+## The 5 Foundational Evaluation Pillars
 
-Instead of a flat performance scale, Carbase AI uses a **Dynamic Domain Weighting Model**. Every vehicle is first classified by its role, then evaluated across 7 domains. The weight each domain carries shifts based on what the vehicle was built to do — ensuring off-road trucks are not penalized for poor cornering, and supercars are not penalized for lack of cargo capacity.
+Each vehicle is evaluated across 5 core pillars tailored to its vehicle class (Euro, JDM, Muscle, EV, Truck/Off-Road, Supercar):
 
-The conceptual formula:
+1. 🏎️ **Performance & Speed (0–100):** Power-to-weight ratio, 0–60 mph acceleration, lateral G-capability, and drivetrain efficiency.
+2. 🏛️ **Brand Heritage & Resale (0–100):** Enthusiast pedigree, market demand, historical lineage, and value retention curves.
+3. 📦 **Utility & Practicality (0–100):** Seating configuration, cargo volume, towing capacity, and daily usability.
+4. ⛽ **Fuel & Energy Efficiency (0–100):** Range, MPG / MPGe, thermal management, and regular maintenance cost factor.
+5. ⚖️ **Price-to-Value & Role Execution (0–100):** How effectively the vehicle fulfills its design objective relative to its price bracket.
 
-```
-R = min(100, Σ (Sd × Wd,role))
-```
+---
 
-Where `Sd` is the vehicle's raw score in each domain, and `Wd,role` is the weight applied to that domain for the vehicle's classified role. All weights sum to 1.0.
+## Modification Impact & Build Coherence
 
-***
+When you log aftermarket modifications in Carbase, each part contributes to specific functional categories:
+* **Power & Acceleration Gain:** Turbo upgrades, superchargers, intake, downpipes, exhaust, ECU tunes.
+* **Handling & Chassis:** Coilovers, sway bars, strut braces, alignment kits.
+* **Braking & Safety:** Big brake kits, slotted rotors, braided lines.
+* **Aero & Aesthetics:** Splitters, diffusers, GT wings, widebody kits.
 
-## The 7 Evaluation Domains
+### 🧩 Synergistic Coherence Bonus
+The Carbase algorithm rewards balanced engineering. Installing high-boost forced induction without upgrading cooling or brakes triggers diminishing returns. Conversely, pairing high power with matching brakes, cooling, and suspension unlocks a **Coherence Synergy Bonus** that boosts your OVR Score higher.
 
-| Domain | What It Measures |
-| ----------- | ------------------------------------------------- |
-| 🏎️ Performance | Power, acceleration, handling, track capability |
-| 🛡️ Safety | Braking, structural integrity, driver aids |
-| 🔩 Reliability | Engine longevity, build quality, service history |
-| 🛋️ Comfort | Cabin noise, ride quality, interior refinement |
-| ⛽ Efficiency | Fuel economy, emissions, powertrain efficiency |
-| 📦 Utility | Cargo capacity, towing, practicality |
-| 🎯 Cohesion | How well all systems work together as a package |
+---
 
-***
+## 📸 Verification & Integrity
 
-## Dynamic Weighting Matrix
+To protect leaderboard integrity, modifications have two states:
 
-| Vehicle Role | Performance | Safety | Reliability | Comfort | Efficiency | Utility | Cohesion |
-| -------------------- | ----------- | ------ | ----------- | ------- | ---------- | ------- | -------- |
-| Utility / Off-Road | 0.05 | 0.20 | 0.25 | 0.10 | 0.05 | 0.25 | 0.10 |
-| Luxury Sedan / Daily | 0.10 | 0.20 | 0.15 | 0.25 | 0.15 | 0.10 | 0.05 |
-| Supercar / Hypercar | 0.45 | 0.10 | 0.05 | 0.05 | 0.05 | 0.05 | 0.25 |
+| Status | Visual Flag | OVR Impact |
+|---|---|---|
+| ✅ **Verified** | Verified Green Check | 100% calculation credit applied to OVR Score & GPI |
+| ⚠️ **Unverified** | Unverified Amber Flag | Visible on build timeline, but 0% score credit until proof attached |
 
-***
+**Proof Methods Accepted:**
+1. 🧾 **Purchase Receipt / Invoice** from certified retailer or tuning shop.
+2. 📸 **Physical Installation Photo** of the part installed on the vehicle.
+3. 📈 **Dyno Sheet Verification Photo** documenting measured wheel horsepower and torque.
 
-## Case Studies — Utilization-Based Ratings
+---
 
-### 🏔️ Off-Road Utility SUV — Toyota 4Runner TRD Pro
+## Garage Power Index (GPI)
 
-**Role weights:** Heavy emphasis on Utility (0.25) and Reliability (0.25). Low emphasis on Performance (0.05) and Efficiency (0.05).
-
-**Domain scores:**
-
-| Domain | Score | Why |
-| ----------- | ----- | ---- |
-| 🏎️ Performance | 38/100 | Not built for speed — modest HP, slow acceleration |
-| 🛡️ Safety | 74/100 | Solid crash ratings, decent driver aids |
-| 🔩 Reliability | 96/100 | One of the most proven powertrains in automotive history |
-| 🛋️ Comfort | 62/100 | Capable interior, but dated refinement and road noise |
-| ⛽ Efficiency | 32/100 | Poor fuel economy — a known tradeoff for the platform |
-| 📦 Utility | 94/100 | Class-leading towing, off-road articulation, cargo capacity |
-| 🎯 Cohesion | 88/100 | Everything works exactly as intended for its role |
-
-**Baseline Score: ~66 OVR**
-The role-aware model protects the 4Runner from being crushed by poor fuel economy and speed metrics. However, its aerodynamic profile, weight, and highway comfort limits act as a structural ceiling.
-
-**With Verified Off-Road Mods** (lift kits, heavy-duty suspension, air lockers): climbs into the **mid-70s (74–76 OVR)**.
-
-**Capped Ceiling:** The system ensures a utility truck can never reach Elite status (80+). True Elite is reserved for vehicles with higher multi-domain capability. This keeps the scoring honest.
-
-***
-
-### 🏎️ High-Performance Supercar — Lamborghini Huracán
-
-**Role weights:** High priority on Performance (0.45) and Cohesion (0.25). Low priority on Utility (0.05) and Comfort (0.05).
-
-**Domain scores:**
-
-| Domain | Score | Why |
-| ----------- | ----- | ---- |
-| 🏎️ Performance | 98/100 | 630HP, 2.9s 0-60, near-perfect lateral G figures |
-| 🛡️ Safety | 72/100 | Strong braking and stability systems, limited passive safety |
-| 🔩 Reliability | 58/100 | Exotic maintenance requirements, higher service frequency |
-| 🛋️ Comfort | 55/100 | Firm, loud, and unforgiving — intentionally so |
-| ⛽ Efficiency | 28/100 | 13 MPG combined — expected at this power level |
-| 📦 Utility | 20/100 | Essentially zero cargo, two seats, no practicality |
-| 🎯 Cohesion | 96/100 | Every system — aero, chassis, powertrain — built to one purpose |
-
-**Baseline Score: low-to-mid 90s OVR**
-The poor Utility and Comfort scores barely register under supercar role weighting. Performance and Cohesion dominate. The exotic maintenance tradeoffs keep it honest — a perfect 100 remains out of reach.
-
-***
-
-## Modification Impact & Rating Boost
-
-When you add mods, Carbase AI's engine analyzes each modification and assigns it to a functional category. Each category carries a performance coefficient contributing to your total power and torque gains.
-
-### 📸 Mod Verification Requirement
-
-Mods must be verified to contribute to your OVR Score. Verification requires at least one of the following:
-
-* 🧾 **Receipt** — purchase receipt from the shop or retailer
-* 🔗 **Product Link** — direct URL to the part from any major aftermarket retailer
-* 📸 **Installation Photo** — photo proof of the mod on your vehicle
-
-| Verification Status | Score Impact |
-| ------------------- | ------------ |
-| ✅ Verified | 100% performance credit applied to OVR Score |
-| ⚠️ Unverified | Zero score credit — appears on timeline as flagged, does not affect OVR |
-
-> An unverified mod is visible on your build timeline so the community can see what you claim — but it counts for nothing until proven. Verification is what separates a real build from a spec sheet.
-
-***
-
-## HUD Studio Class Rating
-
-| Class | Build Level |
-| ----- | ----------------------------------------- |
-| 🟠 **S** | Extreme / Exotic — major power adders working in unison |
-| 🔵 **A** | Forced Induction / Advanced — heavy bolt-ons or single forced-induction |
-| 🟢 **B** | Moderate Bolt-Ons — typical street builds (intake, exhaust, tune) |
-| 🟡 **C** | Entry Level — minor supporting upgrades |
-| ⚪ **D** | Stock — no meaningful performance modifications logged |
-
-### Tuning Case Studies
-
-**🔧 The Bolt-On Street Build**
-
-* Mods: 1 verified intake, 1 verified exhaust, 1 **unverified** ECU tune
-* The intake and exhaust receive full credit. The unverified ECU tune appears on the build timeline marked ⚠️ unverified — it adds zero to the OVR Score until verified with a receipt, link, or photo.
-* Result: Intake + exhaust gains only → **Class B**, minor rating boost. The tune is visible on the timeline but does nothing until proven.
-
-**🚀 Max-Spec Track Build**
-
-* Mods: Verified twin-turbos, verified ECU tune, verified nitrous, verified downpipe, verified aero splitter, unverified underglow
-* All 5 performance mods are fully credited. The unverified underglow appears on the timeline as ⚠️ unverified — cosmetic or not, it contributes zero to the score.
-* Result: Twin-turbo synergy with nitrous and supporting software pushes past the upper threshold → **Class S**, maximum rating boost applied
-
-***
-
-## Public Showroom Trust & VIN Verification
-
-```
-[ Public Showroom Card ]
-+------------------------------------+
-| 2023 Lamborghini Huracán           |
-| Overall: 92  |  Rank: Elite        |
-|                                    |
-|  [⚠️ UNVERIFIED SPECS & OWNER]     |
-+------------------------------------+
-```
-
-| Status | Badge | What It Means |
-| ------ | ----- | ------------- |
-| ✅ VIN Verified | 🟢 Verified Owner | VIN decoded, ownership confirmed, specs are 100% authentic |
-| ⚠️ Self-Reported | 🟡 Unverified Specs & Owner | Manually entered, unconfirmed against registration databases |
-
-### Showroom Case Studies
-
-**Case A — Verified Entry**
-A user adds a 2021 Porsche 911 Turbo S and completes VIN verification. The card publishes with a clean premium layout and a green Verified Owner badge. The community knows with certainty the car and specs are genuine.
-
-**Case B — Self-Reported Entry**
-A user manually claims a 2023 Lamborghini Huracán STO but skips VIN verification. The card is still visible publicly in the showroom — but carries a prominent yellow "Unverified Specs & Owner" banner. The community can see the card and the build, but knows the specs and ownership have not been confirmed. Visibility is not restricted — transparency is enforced instead.
-
-***
-
-## Modification Timeline
-
-Every verified mod is permanently timestamped to your build history. Your OVR Score timeline shows the full progression of your build — every part logged, every boost earned — visible to the community on your Car Card.
-
-***
-
-## ⚠️ Disclaimer
-
-The OVR Score, Class Rating, and all performance figures are proprietary estimates generated from user-submitted and AI-verified data. They are not certified mechanical appraisals, safety ratings, or financial valuations. Always consult a qualified mechanic before making modifications to your vehicle.
+For collectors with multiple vehicles in their virtual showroom, Carbase computes your **Garage Power Index (GPI)**:
+* Combines active vehicle OVR scores, verified build stages, and achievement badge multipliers.
+* Determines your standing on **Global, National, and Local Garage Leaderboards**.

@@ -1,60 +1,45 @@
-# 📈 XP, Levels & Ranks
+# 📈 XP, Levels & Achievement Badges
 
-Carbase AI features a full progression system that rewards you for building, verifying, and participating in the community.
+Carbase features a comprehensive gamification and progression ecosystem that rewards authentic building, mechanical documentation, and community participation.
 
-***
+---
 
-## Earning XP
+## ⚡ Earning Experience Points (XP)
 
-XP (Experience Points) is earned through activity across the platform. The best and fastest way to earn XP is by staying active in the community — joining Crews, interacting with other profiles, and using the app consistently every day.
+XP is awarded through positive platform milestones:
 
-| Activity | XP Earned |
-| -------- | --------- |
-| 👥 Joining and participating in Crews | ⭐⭐⭐ High |
-| 💬 Interacting with other user profiles and builds | ⭐⭐⭐ High |
-| 📅 Daily app activity | ⭐⭐ Medium |
-| 📍 Checking in at meetups | ⭐⭐ Medium |
-| 🏆 Completing Crew daily challenges | ⭐⭐⭐ High |
-| ✅ Completing VIN verification | ⭐⭐ Medium |
-| 🔧 Logging and verifying modifications | ⭐⭐ Medium |
-| 🏅 Hitting build milestones | ⭐ Bonus |
+| Action | XP Reward | Dynamic Island Toast |
+|---|---|---|
+| 🚗 **Mint New Verified Vehicle** | **+250 XP** | `XP_GAIN` Banner |
+| 🔧 **Log Verified Mod (with Photo/Receipt)** | **+100 XP** | `XP_GAIN` Banner |
+| 📈 **Upload Verified Dyno Sheet** | **+200 XP** | `ACHIEVEMENT` Alert |
+| 👥 **Found or Join a Car Crew** | **+150 XP** | `XP_GAIN` Banner |
+| 🎯 **Complete Daily Crew Challenge** | **+75 XP** | `XP_GAIN` Banner |
+| 🔥 **Daily App Login Streak** | **+25 XP / Day** | `SYSTEM` Alert |
+| 💬 **Helpful Build Transformation Post** | **+50 XP** | `XP_GAIN` Banner |
 
-***
+---
 
-## Level System
+## 🎖️ User Levels (1 to 10)
 
-Your Level is calculated directly from your total XP:
+Your user level scales linearly based on cumulative XP:
 
-```
-Level = floor(XP_total ÷ 100) + 1
-```
+$$\text{Level} = \min\left(10, \left\lfloor \frac{\text{Total XP}}{200} \right\rfloor + 1\right)$$
 
-Every 100 XP earns you one level. Levels unlock Vault slots, cosmetic rewards, and platform privileges.
+Advancing levels triggers native haptic vibration and unlocks exclusive profile rings, elevated gacha odds, and custom chat badges.
 
-***
+---
 
-## Competitive Rank Tiers
+## 🏅 The 37 Achievement Badges
 
-Your Rank is a separate competitive standing determined by your OVR Score and platform activity. Ranks update dynamically — every time your car receives an OVR upgrade, your rank recalculates in real time.
+Carbase tracks **37 unique milestone badges** categorized across 9 enthusiast domains:
 
-| Rank | Tier |
-| --------- | ---- |
-| 🔘 Rookie | Entry level |
-| 🟤 Amateur | Building momentum |
-| 🟡 Contender | Solid build establishing |
-| 🔵 Advanced | Verified builder with documented history |
-| 🟣 Elite | High OVR, active community presence |
-| 🟠 Champion | Top-tier builds, verified and respected |
-| ⭐ Signature | The platform's highest achievable rank |
-
-When you cross into a new rank tier, a **Rank Up Event** triggers — a full-screen overlay with haptic feedback celebrating the milestone.
-
-***
-
-## Leaderboards
-
-- **Global Leaderboard** — All users ranked by OVR Score across the entire platform
-- **Regional Leaderboard** — Ranked within your geographic area
-- **Crew Leaderboard** — Ranked within your Crew by OVR Score
-
-Leaderboard positions recalculate dynamically as cars receive upgrades.
+1. **Foundation Badges:** First Ride, Garage Master, Key Holder, Daily Driven.
+2. **Builder Behavior:** Bolt-on Bandit, Fabricator, Boosted, Dyno Verified, Synergist.
+3. **Integrity & Trust:** 100% Verified Garage, Receipt Keeper, Clean Title.
+4. **Documentation:** Shutterbug, Sound Engineer (Exhaust audio recorded), Build Historian.
+5. **Advisor Intelligence:** AI Tuning Pioneer, Vision Scanner, CAD Master.
+6. **EV-Specific:** Voltage King, Silent Weapon, Kilowatt Collector.
+7. **Social & Group:** Crew Founder, Club Pillar, Meetup Host, Road Captain.
+8. **Collection Binder:** Materialist, Foil Enthusiast, Grail Seeker, Chroma Master.
+9. **Prestige & Leaderboard:** Top 100 Global, Local Hero (500-mile leader), Signature Builder.

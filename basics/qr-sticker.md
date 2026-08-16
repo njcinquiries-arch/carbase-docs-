@@ -1,58 +1,40 @@
-# 📲 QR Code Sticker
+# 📲 Car Codes & Physical Windshield Decals
 
-Every Car Card on Carbase AI includes a built-in QR Code Generator that exports a high-resolution, print-ready sticker — designed to bridge your physical vehicle and your digital build card.
+**Car Codes** in Carbase bridge your physical vehicle in the real world directly with your digital 3D showcase profile via custom physical decals and instant web deep links.
 
-***
+---
 
-## How It Works
+## 🏎️ Physical 3" x 3" Kiss-Cut Vinyl Decal
+
+From the **Car Code** screen in your garage, you can order a custom physical windshield decal delivered directly to your door:
+
+* **Materials & Durability:** Premium all-weather, UV-resistant 3" x 3" kiss-cut vinyl sticker designed for windshield corners, rear quarter glass, or body panels.
+* **Custom Vehicle Branding:** Features your custom build name, verified OVR Score badge, and your scannable SVG QR matrix.
+* **Turnkey Manufacturing:** Automated print-on-demand fulfillment powered by Printify API integration.
+* **Price:** **$10.00** total ($7.99 Sticker + $2.01 Shipping & Handling) processed securely via Stripe.
+
+---
+
+## 🔗 Universal Deep Link & Web Showcase (`/c/{cardId}`)
+
+When anyone scans your physical Car Code sticker with any smartphone camera:
 
 ```
-Physical QR Sticker on Car
-        ↓
-Scanned by any smartphone camera
-        ↓
-Deep link launches in browser
-        ↓
-Full interactive 3D Car Card displayed
+Physical Windshield Sticker
+           ↓
+   Scanned via Camera
+           ↓
+   Opens Universal Web Link: https://carbaseapp.com/c/{cardId}
+           ↓
+   Full Interactive 3D Showcase Card Renders
 ```
 
-Place the sticker on your window, bumper, or at a car meet — anyone who scans it instantly pulls up your verified build card.
+### 1. Viewers without the App
+Opens instantly in Safari, Chrome, or any mobile browser showing:
+* Interactive 3D Car Card with realistic specular reflections
+* Verified OVR Score and HP / Torque figures
+* Full modification timeline and installation proof photos
+* Exhaust note audio player
 
-***
-
-## The Sticker
-
-- Exported directly from your Car Card screen
-- Designed for print — high resolution, clean layout
-- Can be placed anywhere on your vehicle — windshield, bumper, hood, trunk, side panels, or wherever you see fit
-- Each sticker is unique to your specific Car Card
-
-***
-
-## What Happens When It's Scanned
-
-**If the viewer has Carbase AI installed:**
-The app launches and displays your Car Card in full interactive 3D. They can inspect your engine bay specs, scroll through your full modification log, view your OVR Score breakdown, and see your complete build timeline.
-
-**If the viewer does not have the app:**
-Their default browser (Safari, Chrome, etc.) opens a web preview of your Car Card — showing your 3D card, OVR Score, active skins, and vehicle specs displayed behind the card. It's a real, visual first impression of your build without requiring anything to be installed.
-
-To go deeper — full modification log, build timeline, crew affiliation, and community interaction — the viewer is prompted to download Carbase AI. Every scan becomes a natural acquisition moment, turning your physical car into a discovery point for the platform.
-
-***
-
-## Sticker Styles by Plan
-
-| Plan | Sticker Style |
-| ------------ | -------------- |
-| Standard | Standard layout |
-| CarBase Pro | Custom branded styles |
-| VIP | Custom branded + Holographic finish |
-
-***
-
-## Use Cases
-
-- **Car meets** — Let other enthusiasts scan and inspect your build without saying a word
-- **Shows & events** — Display your verified OVR Score and mod history on the spot
-- **Selling your car** — Let buyers scan and see the full verified build record instantly
+### 2. Viewers with Carbase Installed
+Instantly deep-links into the native application to allow following the build, saving to collection binders, or sending crew invitations.

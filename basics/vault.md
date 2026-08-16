@@ -1,48 +1,30 @@
-# 🔐 The Vault
+# 🔐 The Vault & Card Pack Openings
 
-The Vault is Carbase AI's global community showroom — the same space as the Discover tab, viewed from a different angle. It's where verified builds from across the platform live publicly, available for anyone to browse, swipe, and explore.
+**The Vault** in Carbase is the dedicated 3D pack opening and gacha experience where users unlock rare card skins, holographic shaders, particle effects, and garage customization items.
 
-***
+---
 
-## How It Works
+## 🎁 Card Pack Tiers & Pricing
 
-Every car card set to **Public** by its owner appears in the Vault database. The Vault and the Discover tab pull from the same pool — the Vault is the database, Discover is how you browse it.
+Accessible through the Vault and Shop modal:
 
-***
+| Pack Tier | In-App Price | Guaranteed Rarity Range | Value Bracket |
+|---|---|---|---|
+| ⚪ **Silver Pack** | **$2.00** *(or Free Daily on PRO)* | Common to Rare Skins | Min $15 – Max $1,000 |
+| 🟡 **Gold Pack** | **$5.00** | Rare to Epic Skins & Foils | Min $30 – Max $2,000 |
+| 🔴 **Ruby Pack** | **$10.00** | Epic to Legendary Shaders | Min $75 – Max $5,000 |
+| 💎 **Diamond Pack** | **$20.00** | Guaranteed High-Tier Legendary & Grail Foils | Min $200 – Max $15,000 |
 
-## Clicking Into a Card
+---
 
-When you tap any car card in the Vault or Discover feed, you're taken to that vehicle's **full card page**:
+## 🎲 3D Unboxing & Physics
 
-* Complete OVR Score breakdown
-* Full verified modification timeline (baseline → current)
-* HUD Class Rating badge
-* Build photos and part details
-* Owner's username and crew affiliation
+1. **The Vault Safe Animation:** Selecting a pack initiates a 3D safe unlocking sequence.
+2. **Interactive Card Flip:** Swipe or tap to reveal the drawn card skin with physical 3D card tilt and holographic reflection reveals.
+3. **Collection Binder Storage:** Unlocked skins are stored permanently in your Collection Binder and can be equipped to any car in your garage.
 
-If the owner's showroom is set to **Public**, you can tap through to enter their **personal showroom** — seeing all the cards they've made public, their full garage, and their build history.
+---
 
-***
+## 📊 Transparent Odds & Probability Sheet
 
-## Verification in the Vault
-
-Cards in the Vault display their verification status clearly:
-
-| Status | Badge | Meaning |
-| ------ | ----- | ------- |
-| ✅ VIN Verified | 🟢 Verified Owner | Ownership and specs confirmed — 100% authentic |
-| ⚠️ Self-Reported | 🟡 Unverified Specs & Owner | Manually entered, not confirmed against registration data |
-
-Unverified cards are still visible publicly — transparency is enforced, not visibility restricted. The community sees the build and knows what's been proven.
-
-***
-
-## Vault Slots (Personal Showroom)
-
-Your personal showroom slots control how many of your own cards you can display publicly in the Vault at once:
-
-| Plan | Public Showroom Slots |
-| ------------ | --------------------- |
-| Free | 1 card |
-| CarBase Pro | 10 cards |
-| VIP | Unlimited |
+Carbase adheres to strict transparency with a live **Shop Odds Sheet** (`app/shop-odds.tsx`) displaying exact probability breakdowns for standard vs elevated drop events across all skin rarity tiers.

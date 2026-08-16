@@ -1,29 +1,27 @@
 # Table of contents
 
-* [🏁 Welcome](README.md)
+* [🏁 Welcome to Carbase](README.md)
 
 ## BASICS
 
-* [🚀 Getting Started](basics/getting-started.md)
-* [⭐ OVR Score](basics/ovr-score.md)
-* [🤖 AI Advisor](basics/ai-advisor.md)
-* [🎨 Customization Studio](basics/customization-studio.md)
-* [🔐 The Vault](basics/vault.md)
-* [📲 QR Code Sticker](basics/qr-sticker.md)
-* [📈 XP, Levels & Ranks](basics/progression.md)
-* [🚗 Car Codes](basics/car-codes.md)
-* [💎 Carbase Pro & VIP](basics/carbase-pro.md)
+* [🚀 Getting Started & VIN Decoding](basics/getting-started.md)
+* [⭐ OVR Score & Rating Engine](basics/ovr-score.md)
+* [🤖 Resident Automotive Advisor](basics/ai-advisor.md)
+* [🎨 Customization & Designer Studio](basics/customization-studio.md)
+* [🔐 The Vault & Card Pack Openings](basics/vault.md)
+* [📲 Car Codes & Windshield Decals](basics/qr-sticker.md)
+* [📈 XP, Levels & Badges](basics/progression.md)
+* [💎 Carbase PRO](basics/carbase-pro.md)
 
 ## COLLECT
 
-* [🎁 Car Packs](collect/car-packs.md)
-* [🃏 Car Cards](collect/car-cards.md)
-* [🔧 Accessories](collect/accessories.md)
+* [🎁 Card Packs & Odds](collect/car-packs.md)
+* [🃏 3D Car Cards & Profiles](collect/car-cards.md)
 
 ## COMMUNITY
 
-* [👥 Crews](community/crews.md)
-* [🔭 Discover](community/discover.md)
+* [👥 Crews & Car Clubs](community/crews.md)
+* [🔭 Discover & Explore](community/discover.md)
 
 ## LEGAL
 

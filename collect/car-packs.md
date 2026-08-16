@@ -1,77 +1,31 @@
-# 🎁 Car Packs
+# 🎁 Card Packs & Gacha Mechanics
 
-Car Packs are how you build your collection of **Card Skins** — visual customizations applied directly to your Car Card face and backing. Each pack contains randomized items pulled from a rarity pool determined by the pack tier.
+**Card Packs** in Carbase are how you unlock premium 3D card materials, Skia holographic shaders, particle effects, and garage customization items.
 
-Packs are purchased via Apple Pay or any payment method supported by Apple In-App Purchase. **All sales are final.**
+---
 
-***
+## 📦 Pack Tiers & Exact Pricing
 
-## Pack Tiers
+All purchases are processed securely through Apple In-App Purchase and Google Play Billing:
 
-### 🥉 Bronze Pack
+| Pack Tier | In-App Price | Drop Pool | Target Value |
+|---|---|---|---|
+| 🥈 **Silver Pack** | **$2.00** *(or Daily PRO Claim)* | Common, Uncommon, Rare Skins | Min $15 – Max $1,000 |
+| 🥇 **Gold Pack** | **$5.00** | Rare, Epic Material Shaders | Min $30 – Max $2,000 |
+| 🔴 **Ruby Pack** | **$10.00** | Epic, Legendary Holographic Foils | Min $75 – Max $5,000 |
+| 💎 **Diamond Pack** | **$20.00** | Guaranteed Legendary & Grail Shaders | Min $200 – Max $15,000 |
 
-Entry level. Good for new collectors getting started.
+---
 
-* Rarity pool: Common, Uncommon card skins and basic accessories
-* Best for: first-time openers, low-risk collecting
+## ⚡ Volatility Events: Normal vs. Elevated Odds
 
-***
+Inside the Shop and Vault, players can inspect dynamic probability curves (`app/shop-odds.tsx`):
 
-### 🥈 Silver Pack
+* **Normal Mode (Consistent Spread):** Standard drop distributions across all rarity buckets.
+* **Elevated Mode (Special Events):** Higher risk variance that compresses mid-tier drops to dramatically boost the probability of hitting **Legendary and Grail Shaders** (such as *Diamond Ice*, *Crystal Glass*, and *Platinum Prestige*).
 
-A step up — introduces Rare drops into the pool.
+---
 
-* Rarity pool: Common, Uncommon, Rare
-* Includes: neon glow kits, elevated skin textures
+## 🎨 Binder Collection
 
-***
-
-### 🥇 Gold Pack
-
-Mid-to-high tier. Epic skins enter the pool.
-
-* Rarity pool: Uncommon, Rare, Epic
-* Includes: premium wraps, engine swap cosmetics, animated overlays
-
-***
-
-### 💚 Emerald Pack
-
-The highest tier. Grail-level drops are in play.
-
-* Rarity pool: Rare, Epic, Legendary, Grail
-* Includes: Liquid Gold skins, holographic chrome, animated shader matrices — the rarest items on the platform
-
-***
-
-## Volatility Mode
-
-Before opening any pack, you choose your **risk profile:**
-
-**🟢 Normal Volatility**
-Standard, steady drop rates. Consistent odds across the rarity pool. Lower variance — you'll pull predictably across tiers.
-
-**🔴 Elevated Volatility**
-High-risk, high-reward. Common items drop more frequently — but the odds of pulling a top-tier Grail or Legendary item spike significantly. Boom or bust.
-
-***
-
-## Rarity Tiers
-
-| Rarity | Description |
-| ----------- | -------------------------------------------------- |
-| ⚪ Common | Standard skins, solid colors, basic textures |
-| 🟢 Uncommon | Elevated designs, gloss and brushed finishes |
-| 🔵 Rare | Limited visual styles, neon kits, metallic wraps |
-| 🟣 Epic | Animated gradient shifts, iridescent finishes |
-| 🟠 Legendary | Holographic chrome, animated shader matrices |
-| ✨ Grail | Platform-exclusive ultra-rares — Liquid Gold, Legacy skins |
-
-***
-
-## Important Notes
-
-* All pack contents are virtual card skins and accessories — non-transferable
-* Duplicate items may appear — no duplicate protection at this time
-* Pack contents cannot be refunded once opened
-* Carbase AI does not guarantee specific items from any pack
+Unlocked materials are permanently added to your personal **Collection Binder** (`app/collection.tsx`). You can hot-swap materials onto any car in your garage at zero additional cost.

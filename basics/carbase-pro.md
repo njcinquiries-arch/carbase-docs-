@@ -1,35 +1,33 @@
-# 💎 Carbase Pro
+# 💎 Carbase PRO Membership
 
-Carbase Pro is the premium membership for builders who want more — more cards, more customization, more access.
+**Carbase PRO** is the premium subscription tier designed for dedicated enthusiasts, multi-car owners, and competitive builders.
 
-VIN verification, photo scanning, and manual entry are available to all users at no cost.
+---
 
-***
+## ⚡ Subscription Details & Pricing
 
-## What CarBase Pro Unlocks
+* **Price:** **$4.99 / month**
+* **Billing Provider:** Apple In-App Purchases (iOS) / Google Play Billing (Android) managed seamlessly via RevenueCat integration.
+* **Product ID:** `ai.carbase.pro.monthly`
+* **Free Trial & Guarantee:** Cancel anytime in your Apple ID / Google Play subscription settings with 1-tap purchase restoration.
 
-| Feature | Free | CarBase Pro |
-| --------------------------------- | ---- | ----------- |
-| 🃏 Car Cards | 1 | Multiple |
-| 🔭 Discover Swipes | 10 every 5 hours | Unlimited |
-| 🤖 AI Advisor Prompts | 3 / day | Unlimited |
-| 🎨 Card Skins & Glows | Basic | Full customizable skin + glow library |
-| 📲 QR Code Style | Standard | Fully customizable |
+---
 
-***
+## 🚀 Plan Comparison: Free vs. Carbase PRO
 
-## Card Skins & Glows
+| Feature | Carbase Free | Carbase PRO ($4.99/mo) |
+|---|---|---|
+| 🚗 **Active Showcase Card Slots** | 1 Active Card | **Multiple Multi-Car Showroom Slots** |
+| 🎁 **Free Daily Card Pack** | ❌ None | **Free Daily Silver Pack ($60/mo value)** |
+| 🤖 **Resident AI Advisor** | Basic Rate Limits | **Unlimited 24/7 Access with Multi-Car Memory** |
+| 🎨 **AI Designer Studio** | Preview Only | **Full High-Res Generation & Camera Roll Export** |
+| 📸 **Showcase Media Limits** | 2 Photos per build | **9 Photos + 4 High-Def Exhaust Video Clips** |
+| 🔐 **The Vault Pack Pulls** | Standard Rates | **Exclusive Elevated Odds Event Access** |
+| 🏆 **Profile Styling** | Standard Member | **Exclusive Gold PRO Badge & Holographic Sheen** |
+| 🎧 **VIP Priority Support** | Standard Queue | **24/7 Priority Support Ticket Routing** |
 
-CarBase Pro unlocks the full skin and glow library for your Car Card — elevated textures, metallic finishes, animated effects, and custom ambient glows that free users cannot access.
+---
 
-***
+## How to Upgrade
 
-## Customizable QR Code
-
-Pro members get a fully customizable QR sticker — branded layouts, custom styling, and premium print formats beyond the standard design.
-
-***
-
-## How to Subscribe
-
-CarBase Pro is available via **Apple In-App Purchase**. Manage or cancel your subscription anytime through your Apple ID settings under Subscriptions.
+Open your **Profile** or tap any locked PRO feature (such as the Designer Studio or adding a second vehicle) to launch the **Carbase PRO Paywall Sheet**. Confirm with FaceID / TouchID to unlock all PRO benefits immediately.

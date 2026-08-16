@@ -1,79 +1,34 @@
-# 🃏 Car Cards
+# 🃏 3D Car Cards & Vehicle Profiles
 
-Your Car Card is your vehicle's digital identity on Carbase AI — a visual profile card that represents your build on the platform.
+Your **Car Card** is your vehicle's digital identity inside Carbase — an interactive 3D trading card engineered with realistic shaders, dynamic physics, and comprehensive build telemetry.
 
-***
+---
 
-## What's on Your Car Card
+## 🏎️ Interactive 3D Features
 
-* Vehicle make, model, year, and trim
-* Your current OVR Score
-* HUD Class Rating badge (D through S)
-* Verified modification count
-* Custom skins, accessories, and active glows
-* Your Carbase username and crew affiliation
+* **Physics & Gyroscope Tilt:** Powered by Three.js and Expo-GL. Drag to rotate your vehicle card in full 3D space; device gyroscope sensors shift light reflections realistically across the foil textures.
+* **Exhaust Sound Node:** Tap the audio waveform icon to play authenticated engine revs and exhaust sound clips recorded by the vehicle owner.
+* **Dyno & Performance Telemetry:** Inspect verified Wheel Horsepower, Torque curves, 0–60 mph benchmarks, and lateral G metrics.
+* **Universal Web Showcase (`/c/{cardId}`):** Share your build anywhere. Anyone can interact with your card on any mobile or desktop web browser without needing to download the app.
 
-***
+---
 
-## The Mod Timeline
+## 🛠️ The Modification Log & Verification Pipeline
 
-Every Car Card includes a **chronological build timeline** — a permanent, timestamped log of your vehicle's history from the factory to today.
+Every modification logged in Carbase builds a permanent, chronological timeline:
 
 ```
-[📦 Baseline]  →  [🔧 Mod 1]  →  [🔧 Mod 2]  →  [🔧 Mod 3]  →  ...
-  Stock specs      Verified       Verified       Unverified
-  (Day 0)          + scored        + scored       (flagged, no score)
+[ Factory Baseline ]  →  [ Stage 1 Cold Air Intake ]  →  [ Custom Dyno Tune ]  →  [ Coilovers ]
+    Stock NHTSA Specs           ✅ Verified (Receipt)          ✅ Verified (Dyno)       ⚠️ Unverified (Pending)
 ```
 
-**How the timeline works:**
+1. **Part Categorization:** Engine, Forced Induction, Exhaust, Suspension, Brakes, Wheels/Tires, Aero, Interior, Audio.
+2. **Cost Tracking:** Track your cumulative build investment privately or showcase total build valuation.
+3. **Verification Badges:** Attach installation photos, shop receipts, or dyno sheets to earn the green verified checkmark and unlock full OVR Score credit.
 
-* **Baseline** is always the first entry — your vehicle's stock factory configuration
-* Every mod you log is added chronologically with a timestamp
-* **Verified mods** (with receipt, product link, or photo) are credited to your OVR Score and display a ✅ verified badge
-* **Unverified mods** appear on the timeline with a ⚠️ unverified flag — they are visible in your build history but **contribute zero to your OVR Score**
-* The timeline is publicly visible on your card so the community can see exactly what you've built and what's been proven
+---
 
-***
+## 📸 Media Gallery
 
-## Mod Verification
-
-Mods must be verified to count toward your score. Verification requires at least one of the following:
-
-* 🧾 **Receipt** — upload a purchase receipt from the shop or retailer
-* 🔗 **Product Link** — submit the direct URL to the part from any major aftermarket retailer
-* 📸 **Installation Photo** — photo proof of the mod installed on your vehicle
-
-> Unverified mods show on your timeline but are clearly flagged and add nothing to your OVR Score. Verification is what makes your build credible.
-
-***
-
-## HUD Class Rating Badge
-
-Every Car Card displays a **Class Rating badge** — a single letter (D through S) that represents the total performance gains from your **verified** modifications only.
-
-| Badge | Class |
-| ----- | ----- |
-| ⚪ **D** | Stock — no meaningful verified performance mods |
-| 🟡 **C** | Entry Level — minor supporting upgrades |
-| 🟢 **B** | Moderate Bolt-Ons — intake, exhaust, basic tune |
-| 🔵 **A** | Forced Induction / Advanced builds |
-| 🟠 **S** | Extreme / Exotic — major power adders in unison |
-
-The badge updates automatically as you verify mods. Unverified mods do not move the badge.
-
-***
-
-## Customizing Your Card
-
-Unlock skins and accessories by opening Car Packs. Equip them from your collection to personalize how your Car Card looks across the platform — in the Vault, Crews, and your public profile.
-
-***
-
-## Card Limits
-
-| Plan | Car Cards |
-| ------------ | --------- |
-| Free | 2 |
-| CarBase Pro | Unlimited |
-
-Each Car Card is tied to a specific vehicle. If you own multiple cars, you can create a separate card for each one (Pro required for more than 2).
+* **Free Tier:** Showcase up to 2 high-res photos per vehicle.
+* **Carbase PRO ($4.99/mo):** Upload up to **9 high-definition photos** and **4 exhaust / track video clips**.

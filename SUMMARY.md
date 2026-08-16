@@ -5,6 +5,9 @@
 ## BASICS
 
 * [🚀 Getting Started & VIN Decoding](basics/getting-started.md)
+* [🚗 Building Your Car Card](basics/car-create.md)
+* [🗂️ Your Car Detail Page](basics/car-detail.md)
+* [🔧 Logging Modifications](basics/add-mod.md)
 * [⭐ OVR Score & Rating Engine](basics/ovr-score.md)
 * [🤖 Resident Automotive Advisor](basics/ai-advisor.md)
 * [🎨 Customization & Designer Studio](basics/customization-studio.md)
@@ -22,6 +25,7 @@
 
 * [👥 Crews & Car Clubs](community/crews.md)
 * [🔭 Discover & Explore](community/discover.md)
+* [🏆 Rankings & Leaderboards](community/rankings.md)
 
 ## LEGAL
 

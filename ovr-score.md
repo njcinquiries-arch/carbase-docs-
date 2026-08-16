@@ -1,6 +1,6 @@
 # ⭐ OVR Score
 
-The OVR Score is Carbase AI's proprietary rating system that measures your vehicle's overall build level, modification depth, and performance intent.
+The OVR Score is Carbase's proprietary rating system that measures your vehicle's overall build level, modification depth, and performance intent.
 
 ***
 

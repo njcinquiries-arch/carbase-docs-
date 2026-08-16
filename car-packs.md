@@ -68,4 +68,4 @@ The rarest pack on the platform.
 * All pack contents are virtual and non-transferable
 * Duplicate items may appear — no duplicate protection at this time
 * Pack contents cannot be refunded once opened
-* Carbase AI does not guarantee specific items from any pack
+* Carbase does not guarantee specific items from any pack

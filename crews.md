@@ -1,6 +1,6 @@
 # 👥 Crews
 
-Crews are Carbase AI's community groups — built for car people who want to connect beyond just sharing photos.
+Crews are Carbase's community groups — built for car people who want to connect beyond just sharing photos.
 
 ***
 

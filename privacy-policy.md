@@ -2,11 +2,11 @@
 
 Effective Date: June 29, 2026 · Last Updated: June 29, 2026 · Velto Enterprises LLC
 
-**Summary:** Carbase AI collects vehicle information, account data, modification history, and usage data to deliver its services. We do not sell your personal information. You can delete your account and data at any time.
+**Summary:** Carbase collects vehicle information, account data, modification history, and usage data to deliver its services. We do not sell your personal information. You can delete your account and data at any time.
 
 ## 1. Who We Are
 
-Carbase AI is a product of **Velto Enterprises LLC** ("Velto," "we," "us," or "our"), a company dedicated to building infrastructure for verified vehicle ownership. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Carbase AI mobile application ("App") and any related services (collectively, the "Services").
+Carbase is a product of **Velto Enterprises LLC** ("Velto," "we," "us," or "our"), a company dedicated to building infrastructure for verified vehicle ownership. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Carbase mobile application ("App") and any related services (collectively, the "Services").
 
 If you have questions about this policy, contact us at: [privacy@veltoteam.com](mailto:privacy@veltoteam.com)
 
@@ -38,7 +38,7 @@ If you have questions about this policy, contact us at: [privacy@veltoteam.com](
 
 We use the information we collect to:
 
-* Create and manage your Carbase AI account and vehicle identity profile.
+* Create and manage your Carbase account and vehicle identity profile.
 * Generate your vehicle's OVR Score, build history, and market value estimate.
 * Power the AI Advisor — providing modification recommendations calibrated to your specific vehicle, build stage, and goals.
 * Verify and log modifications to create a credible, traceable build record.
@@ -51,7 +51,7 @@ We use the information we collect to:
 
 ## 4. Artificial Intelligence and Data Processing
 
-Carbase AI uses artificial intelligence to deliver the AI Advisor, OVR Score calculations, and build recommendations. To do this, vehicle specifications, modification history, and build goals you provide may be processed by AI systems, including third-party AI infrastructure providers. These providers are contractually prohibited from using your data to train their general models.
+Carbase uses artificial intelligence to deliver the AI Advisor, OVR Score calculations, and build recommendations. To do this, vehicle specifications, modification history, and build goals you provide may be processed by AI systems, including third-party AI infrastructure providers. These providers are contractually prohibited from using your data to train their general models.
 
 **Important Disclaimer:** AI-generated recommendations are for informational purposes only. They do not constitute professional automotive, mechanical, or engineering advice. Always consult a qualified mechanic or specialist before making modifications to your vehicle.
 
@@ -59,7 +59,7 @@ Carbase AI uses artificial intelligence to deliver the AI Advisor, OVR Score cal
 
 We do not sell your personal information. We may share your information in the following limited circumstances:
 
-* **With Other Users (By Your Choice):** Your vehicle profile, OVR Score, and build logs are visible to other Carbase AI users according to your privacy settings. Crew participation and verified build data you choose to make public will be visible to the community.
+* **With Other Users (By Your Choice):** Your vehicle profile, OVR Score, and build logs are visible to other Carbase users according to your privacy settings. Crew participation and verified build data you choose to make public will be visible to the community.
 * **Service Providers:** We share data with trusted third-party vendors who help us operate our Services, including cloud hosting, AI infrastructure, analytics, crash reporting, and payment processing. These vendors are bound by data processing agreements and may only use your data to perform services for us.
 * **Vehicle Data Providers:** VIN information is shared with licensed automotive data providers to retrieve factory specifications and vehicle history.
 * **Legal Requirements:** We may disclose your information if required by law, court order, or government authority, or when we believe disclosure is necessary to protect our rights, your safety, or the safety of others.
@@ -108,7 +108,7 @@ If you are located in the European Economic Area (EEA), United Kingdom, or Switz
 
 ## 11. Children's Privacy
 
-Carbase AI is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13 without parental consent, we will delete that information promptly. If you believe we may have inadvertently collected information from a child under 13, please contact us at [privacy@veltoteam.com](mailto:privacy@veltoteam.com).
+Carbase is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13 without parental consent, we will delete that information promptly. If you believe we may have inadvertently collected information from a child under 13, please contact us at [privacy@veltoteam.com](mailto:privacy@veltoteam.com).
 
 Users between the ages of 13 and 17 must have parental or guardian consent to use the App.
 

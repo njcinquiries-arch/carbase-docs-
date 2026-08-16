@@ -2,17 +2,17 @@
 
 Effective Date: June 29, 2026 · Last Updated: June 29, 2026 · Velto Enterprises LLC
 
-**Please read these terms carefully.** By creating an account or using Carbase AI, you agree to be bound by these Terms of Service. If you do not agree, do not use the App.
+**Please read these terms carefully.** By creating an account or using Carbase, you agree to be bound by these Terms of Service. If you do not agree, do not use the App.
 
 ## 1. Agreement to Terms
 
-These Terms of Service ("Terms") constitute a legally binding agreement between you ("User," "you," or "your") and **Velto Enterprises LLC** ("Velto," "we," "us," or "our"), governing your access to and use of the Carbase AI mobile application, website at veltoteam.com, and all related services (collectively, the "Services").
+These Terms of Service ("Terms") constitute a legally binding agreement between you ("User," "you," or "your") and **Velto Enterprises LLC** ("Velto," "we," "us," or "our"), governing your access to and use of the Carbase mobile application, website at veltoteam.com, and all related services (collectively, the "Services").
 
 By downloading, installing, or using the App, you represent that you have read, understood, and agree to be bound by these Terms and our Privacy Policy, which is incorporated herein by reference.
 
 ## 2. Eligibility
 
-To use Carbase AI, you must:
+To use Carbase, you must:
 
 * Be at least **13 years of age**. Users between 13 and 17 must have verifiable parental or guardian consent.
 * Have the legal capacity to enter into a binding contract in your jurisdiction.
@@ -23,7 +23,7 @@ By using the Services, you represent and warrant that you meet all eligibility r
 
 ## 3. Account Registration
 
-To access most features of Carbase AI, you must create an account. You agree to:
+To access most features of Carbase, you must create an account. You agree to:
 
 * Provide accurate, current, and complete information during registration.
 * Maintain and promptly update your account information.
@@ -33,15 +33,15 @@ To access most features of Carbase AI, you must create an account. You agree to:
 
 We reserve the right to suspend or terminate accounts that violate these Terms or that we determine, in our sole discretion, are being used fraudulently or abusively.
 
-## 4. The Carbase AI Services
+## 4. The Carbase Services
 
 ### 4.1 Vehicle Identity
 
-Carbase AI allows you to create a digital identity for your vehicle using VIN or license plate data. The vehicle identity, including OVR Score, market value estimates, and build history, is generated using a combination of publicly available vehicle data, third-party automotive databases, user-submitted information, and AI-powered analysis.
+Carbase allows you to create a digital identity for your vehicle using VIN or license plate data. The vehicle identity, including OVR Score, market value estimates, and build history, is generated using a combination of publicly available vehicle data, third-party automotive databases, user-submitted information, and AI-powered analysis.
 
 ### 4.2 AI Advisor
 
-The Carbase AI Advisor provides modification recommendations, fitment analysis, and build sequencing guidance based on your vehicle specifications and stated goals.
+The Carbase Advisor provides modification recommendations, fitment analysis, and build sequencing guidance based on your vehicle specifications and stated goals.
 
 **IMPORTANT DISCLAIMER:** AI Advisor recommendations are for informational and entertainment purposes only. They do not constitute professional automotive, mechanical, engineering, or safety advice. Velto Enterprises makes no warranty that any modification will be compatible with your vehicle, legal in your jurisdiction, or safe to perform. Always consult a qualified mechanic, automotive professional, or certified installer before making any modifications to your vehicle. Vehicle modifications may void manufacturer warranties, affect vehicle safety, and may be subject to local laws and regulations.
 
@@ -51,7 +51,7 @@ The OVR Score is a proprietary metric developed by Velto Enterprises to reflect 
 
 ### 4.4 Market Value
 
-Market value estimates provided through Carbase AI are algorithmic estimates based on available data and are not certified appraisals. They do not represent guaranteed sale prices and should not be relied upon for financial, insurance, or legal purposes.
+Market value estimates provided through Carbase are algorithmic estimates based on available data and are not certified appraisals. They do not represent guaranteed sale prices and should not be relied upon for financial, insurance, or legal purposes.
 
 ### 4.5 Mod Helper and Build Logging
 
@@ -63,7 +63,7 @@ Car Codes are purchasable digital tokens that grant access to Crew membership an
 
 ## 5. Purchases, Payments, and Refunds
 
-Certain features within Carbase AI, including Car Codes and premium membership tiers, require payment. All purchases are processed through **Apple In-App Purchase** and are subject to Apple's payment terms and policies.
+Certain features within Carbase, including Car Codes and premium membership tiers, require payment. All purchases are processed through **Apple In-App Purchase** and are subject to Apple's payment terms and policies.
 
 * All purchases are final. We do not offer refunds except as required by applicable law or Apple's refund policies.
 * Subscription fees (if applicable) are billed on a recurring basis and will auto-renew unless cancelled at least 24 hours before the end of the current billing period through your Apple ID account settings.
@@ -111,7 +111,7 @@ Violation of these prohibitions may result in immediate account suspension or te
 
 ## 8. Community and Crew Rules
 
-Carbase AI fosters a community built on verified builds and genuine automotive passion. All users participating in Crews and community features must:
+Carbase fosters a community built on verified builds and genuine automotive passion. All users participating in Crews and community features must:
 
 * Treat other members with respect.
 * Not engage in spam, unsolicited advertising, or self-promotion without consent.
@@ -123,11 +123,11 @@ We reserve the right to remove any content, suspend any user, or dissolve any Cr
 
 ## 9. Intellectual Property
 
-The Carbase AI App, including its design, AI systems, OVR Score methodology, branding, logos, and all proprietary technology, is owned by Velto Enterprises LLC and is protected by copyright, trademark, trade secret, and other intellectual property laws.
+The Carbase App, including its design, AI systems, OVR Score methodology, branding, logos, and all proprietary technology, is owned by Velto Enterprises LLC and is protected by copyright, trademark, trade secret, and other intellectual property laws.
 
 You are granted a limited, non-exclusive, non-transferable, revocable license to use the App solely for your personal, non-commercial use in accordance with these Terms. No other rights are granted.
 
-"Carbase AI," "Velto Enterprises," "OVR Score," "Mod Helper," and related marks are trademarks of Velto Enterprises LLC. You may not use these marks without our prior written consent.
+"Carbase," "Velto Enterprises," "OVR Score," "Mod Helper," and related marks are trademarks of Velto Enterprises LLC. You may not use these marks without our prior written consent.
 
 ## 10. Third-Party Services
 

@@ -2,13 +2,13 @@
 
 Effective Date: June 29, 2026 · Last Updated: August 16, 2026 · Velto Enterprises LLC
 
-**Summary:** Carbase AI collects vehicle information, account data, modification history, diagnostic logs, and usage metrics to deliver its services. We do not sell your personal information. You can delete your account and data at any time.
+**Summary:** Carbase collects vehicle information, account data, modification history, diagnostic logs, and usage metrics to deliver its services. We do not sell your personal information. You can delete your account and data at any time.
 
 ---
 
 ## 1. Who We Are
 
-Carbase AI is owned and operated by **Velto Enterprises LLC** ("Velto," "we," "us," or "our"), a technology company building software infrastructure for verified vehicle identities, AI modification advice, and automotive community interactions. This Privacy Policy explains our practices regarding the collection, use, processing, disclosure, and protection of your information across the Carbase AI mobile application, web applications, APIs, and related services (collectively, the "Services").
+Carbase is owned and operated by **Velto Enterprises LLC** ("Velto," "we," "us," or "our"), a technology company building software infrastructure for verified vehicle identities, AI modification advice, and automotive community interactions. This Privacy Policy explains our practices regarding the collection, use, processing, disclosure, and protection of your information across the Carbase mobile application, web applications, APIs, and related services (collectively, the "Services").
 
 If you have questions about this policy, contact our Data Protection & Privacy Officer at: [privacy@veltoteam.com](mailto:privacy@veltoteam.com)
 
@@ -38,7 +38,7 @@ If you have questions about this policy, contact our Data Protection & Privacy O
 ## 3. How We Use Your Information
 
 We process user data strictly for legitimate operational and business purposes, including:
-1. Creating, maintaining, and securing your Carbase AI account and digital vehicle identity.
+1. Creating, maintaining, and securing your Carbase account and digital vehicle identity.
 2. Generating the **OVR Score**, build verification timelines, and algorithmic market value estimates.
 3. Powering the **AI Advisor** to generate vehicle-specific modification recommendations, fitment analysis, and maintenance sequencing.
 4. Facilitating Crew interactions, Car Code trades, and community features.
@@ -49,7 +49,7 @@ We process user data strictly for legitimate operational and business purposes, 
 
 ## 4. Artificial Intelligence & Data Guardrails
 
-Carbase AI utilizes advanced artificial intelligence models to deliver personalized recommendations and analytics.
+Carbase utilizes advanced artificial intelligence models to deliver personalized recommendations and analytics.
 
 ### A. AI Processing Guardrails
 * Vehicle specifications and modification queries are processed via encrypted API endpoints with our enterprise AI infrastructure partners.

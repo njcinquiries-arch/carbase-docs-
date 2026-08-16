@@ -1,12 +1,12 @@
 # 🚀 Getting Started
 
-When you open Carbase AI for the first time, you'll set up your vehicle identity. There are three ways to do this:
+When you open Carbase for the first time, you'll set up your vehicle identity. There are three ways to do this:
 
 ***
 
 ## 1. 🔢 VIN Verification *(Recommended)*
 
-Enter your 17-character Vehicle Identification Number. Carbase AI cross-references licensed automotive databases to pull your factory specs, trim details, recall history, and baseline configuration.
+Enter your 17-character Vehicle Identification Number. Carbase cross-references licensed automotive databases to pull your factory specs, trim details, recall history, and baseline configuration.
 
 **You can find your VIN:**
 
@@ -18,7 +18,7 @@ Enter your 17-character Vehicle Identification Number. Carbase AI cross-referenc
 
 ## 2. 📷 Photo Scanner
 
-Point your camera at your vehicle or license plate. Carbase AI's AI vision will automatically detect your make, model, year, trim level, and available specs.
+Point your camera at your vehicle or license plate. Carbase's AI vision will automatically detect your make, model, year, trim level, and available specs.
 
 ***
 

@@ -1,6 +1,6 @@
 # 🃏 Car Cards
 
-Your Car Card is your vehicle's digital identity on Carbase AI — a visual profile card that represents your build on the platform.
+Your Car Card is your vehicle's digital identity on Carbase — a visual profile card that represents your build on the platform.
 
 ***
 

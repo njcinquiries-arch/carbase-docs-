@@ -1,6 +1,6 @@
 # 🚗 Car Codes
 
-A Car Code is a unique verified identifier assigned to your vehicle on the Carbase AI platform.
+A Car Code is a unique verified identifier assigned to your vehicle on the Carbase platform.
 
 Think of it as a digital title for your build — it ties your OVR Score, modification history, build photos, and Car Card to a single verifiable record linked to your VIN.
 

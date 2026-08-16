@@ -1,6 +1,6 @@
 # 🔭 Discover
 
-Discover is where you explore builds from the Carbase AI community and find vehicles that inspire you.
+Discover is where you explore builds from the Carbase community and find vehicles that inspire you.
 
 ***
 

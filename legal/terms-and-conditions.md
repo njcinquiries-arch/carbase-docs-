@@ -22,7 +22,7 @@ By accessing or using the Services, you represent, warrant, and covenant that:
 
 To use Carbase, you must meet the following mandatory eligibility criteria:
 * **Age Requirement:** You must be at least **18 years of age** (or the age of legal majority in your state or country of residence) to create an account, make purchases, or use any features of the App. 
-* **Minors (13–17):** If you are between 13 and 17 years old, you may only use the App with the explicit, verifiable consent and active supervision of a parent or legal guardian who agrees to be bound by these Terms on your behalf.
+* **Minors (13–17):** If you are between 13 and 17 years old, you may only use the App with the explicit, verifiable consent and active supervision of a parent or legal guardian who agrees to be bound by these Terms on your behalf. If a minor makes any purchases within the App (including purchasing Base Bolts), the parent or legal guardian accepts full financial responsibility and liability for all charges. Velto Enterprises LLC is not liable for unauthorized purchases made by minors.
 * **Prohibited Persons:** The App is strictly prohibited to anyone under 13 years of age. You warrant that you are not listed on any U.S. Government list of prohibited or restricted parties (e.g., OFAC Specially Designated Nationals list).
 * **Prior Violations:** Persons previously suspended, terminated, or banned from Carbase are strictly barred from re-registering or creating alternative accounts.
 
@@ -56,18 +56,18 @@ Carbase strictly condemns illegal street racing, reckless driving, distracted dr
 
 ---
 
-## 5. In-App Purchases, Car Codes, Virtual Items, & Subscriptions
+## 5. In-App Purchases, Base Bolts, Car Codes, Virtual Items, & Subscriptions
 
 ### 5.1 Payment Processing & Apple In-App Purchases
-All digital purchases within Carbase (including **Car Codes**, VIP passes, digital customization items, and subscriptions) are processed through third-party billing providers, including Apple In-App Purchases (IAP). Payments are governed strictly by Apple's Terms of Service and billing policies.
+All digital purchases within Carbase (including **Base Bolts**, **Car Codes**, VIP passes, digital customization items, and subscriptions) are processed through third-party billing providers, including Apple In-App Purchases (IAP). Payments are governed strictly by Apple's Terms of Service and billing policies.
 
 ### 5.2 Strict No-Refund Policy
-**ALL PURCHASES MADE WITHIN THE APP ARE FINAL AND NON-REFUNDABLE.** Except where explicitly required by mandatory applicable consumer protection law or Apple's refund policy, Velto Enterprises LLC offers zero cash refunds, credits, or exchanges for digital goods, Car Codes, or unused subscription time.
+**ALL PURCHASES MADE WITHIN THE APP ARE FINAL AND NON-REFUNDABLE.** Except where explicitly required by mandatory applicable consumer protection law or Apple's refund policy, Velto Enterprises LLC offers zero cash refunds, credits, or exchanges for digital goods, Base Bolts, Car Codes, or unused subscription time.
 
-### 5.3 Virtual Items & Car Codes Have Zero Monetary Value
-Digital tokens, Car Codes, OVR points, rank badges, digital cards, and virtual garage items are licensed digital assets provided for entertainment inside the platform only.
+### 5.3 Virtual Items, Base Bolts, & Car Codes Have Zero Monetary Value
+Digital tokens, Base Bolts, Car Codes, OVR points, rank badges, digital cards, and virtual garage items are licensed digital assets provided for entertainment inside the platform only.
 * Virtual items **HAVE NO REAL-WORLD MONETARY VALUE**, constitute no property right or title, and cannot be redeemed for legal tender, cash, or real-world goods from Velto or any third party.
-* You are strictly prohibited from buying, selling, auctioning, or trading Car Codes or account access for real-world fiat currency outside the official App environment. Any attempt to monetize platform assets externally will result in immediate permanent account termination and forfeiture of all virtual items without compensation.
+* You are strictly prohibited from buying, selling, auctioning, or trading Base Bolts, Car Codes, or account access for real-world fiat currency outside the official App environment. Any attempt to monetize platform assets externally will result in immediate permanent account termination and forfeiture of all virtual items without compensation.
 
 ---
 

@@ -1,252 +1,88 @@
 # 📋 Terms and Conditions
 
-Effective Date: June 29, 2026 · Last Updated: August 16, 2026 · Velto Enterprises LLC
+Effective Date: June 29, 2026 · Last Updated: September 3, 2026 · Velto Enterprises LLC
 
-**PLEASE READ THESE TERMS AND CONDITIONS ("TERMS") CAREFULLY BEFORE USING Carbase.** 
-BY CREATING AN ACCOUNT, ACCESSING, OR USING THE Carbase APPLICATION, WEBSITE (VELTOTEAM.COM), OR ANY RELATED SERVICES, YOU AGREE TO BE BOUND BY THESE LEGAL TERMS, INCLUDING THE MANDATORY ARBITRATION AND CLASS ACTION WAIVER IN SECTION 16. IF YOU DO NOT AGREE TO EVERY PROVISION OF THESE TERMS, YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
+Welcome to Carbase. These Terms and Conditions ("Terms") govern your access to and use of the Carbase mobile application, website, software, and associated services (collectively, the "Services") provided by Velto Enterprises LLC ("Velto," "we," "us," or "our").
 
----
-
-## 1. Legal Binding Agreement & Scope of Services
-
-These Terms constitute a legally binding contract between you ("User," "you," or "your") and **Velto Enterprises LLC** ("Velto," "Company," "we," "us," or "our"). These Terms govern your access to and use of the Carbase mobile application, web applications, custom software, sub-domains, backend APIs, data platforms, and all related services, tools, and content (collectively, the "Services").
-
-By accessing or using the Services, you represent, warrant, and covenant that:
-1. You have read, understood, and agreed to be bound by these Terms and our [Privacy Policy](privacy-policy.md).
-2. You have full legal right, power, and authority to enter into these Terms.
-3. You are entering into this agreement voluntarily and not in reliance on any representation or promise not expressly set forth herein.
+By creating an account, downloading the app, or using the Services, you agree to be bound by these Terms. If you do not agree, do not use the Services.
 
 ---
 
-## 2. Eligibility & Strict Age Limitations
+## 1. Acceptance of Terms
 
-To use Carbase, you must meet the following mandatory eligibility criteria:
-* **Age Requirement:** You must be at least **18 years of age** (or the age of legal majority in your state or country of residence) to create an account, make purchases, or use any features of the App. 
-* **Minors (13–17):** If you are between 13 and 17 years old, you may only use the App with the explicit, verifiable consent and active supervision of a parent or legal guardian who agrees to be bound by these Terms on your behalf. If a minor makes any purchases within the App (including purchasing Base Bolts), the parent or legal guardian accepts full financial responsibility and liability for all charges. Velto Enterprises LLC is not liable for unauthorized purchases made by minors.
-* **Prohibited Persons:** The App is strictly prohibited to anyone under 13 years of age. You warrant that you are not listed on any U.S. Government list of prohibited or restricted parties (e.g., OFAC Specially Designated Nationals list).
-* **Prior Violations:** Persons previously suspended, terminated, or banned from Carbase are strictly barred from re-registering or creating alternative accounts.
+By accessing the Services, you represent that you are at least 18 years old or the legal age of majority in your jurisdiction. The Services are intended solely for personal, non-commercial use regarding the management, social sharing, and documentation of vehicle modifications.
 
 ---
 
-## 3. Mandatory User Representations & Account Security
+## 2. User Accounts & Vehicle Verification
 
-### 3.1 Account Creation & Registration
-Certain features require account registration. You agree to provide true, accurate, current, and complete information during registration and keep your account details updated at all times.
-
-### 3.2 Security & Liability for Account Credentials
-You are solely and fully responsible for maintaining the strict confidentiality of your username, password, and authentication tokens. You accept full legal and financial responsibility for all activities, actions, purchases, and communications that occur under your account credentials, whether or not authorized by you. You agree to notify us immediately at [support@veltoteam.com](mailto:support@veltoteam.com) of any suspected unauthorized access or breach of security. Velto Enterprises LLC will not be liable for any loss, damage, or unauthorized access arising from your failure to safeguard your login credentials.
+* **Account Security:** You are entirely responsible for safeguarding your account credentials. Velto is not liable for any loss or damage arising from unauthorized access to your account.
+* **Vehicle Data Verification:** You agree that any information you submit—including VINs, modification logs, costs, and dyno sheets—is accurate to the best of your knowledge. We reserve the right to audit, flag, or remove vehicle profiles (and adjust OVR Scores) if we detect fraudulent verification, stolen VINs, or mathematically impossible performance claims.
+* **Car Codes & Decals:** Physical QR decals purchased through the app are tied to your specific digital vehicle profile. Transferring a decal to an unregistered vehicle without updating the profile is a violation of these Terms.
 
 ---
 
-## 4. Comprehensive Disclaimers: Mechanical, AI, OVR, & Safety
+## 3. Base Maps & Navigation Liability
 
-### 4.1 AI Advisor & Mod Helper Disclaimer — For Entertainment Only
-The **Carbase Advisor**, **Mod Helper**, fitment tools, build recommendation algorithms, and automated chat tools provide synthetic data for **INFORMATIONAL AND ENTERTAINMENT PURPOSES ONLY**. 
-* **NO PROFESSIONAL AUTOMOTIVE ADVICE:** Content generated by AI or automated systems does NOT constitute professional automotive engineering, mechanical, legal, safety, racing, or financial advice.
-* **VERIFICATION REQUIRED:** Velto Enterprises LLC does not test, inspect, evaluate, or verify any vehicle, aftermarket part, fitment, or installation step. You agree to independently verify all fitment data, part compatibility, torque specifications, electrical loads, emission compliance, and installation safety with a certified, licensed automotive repair specialist prior to purchasing or installing any part.
-* **TOTAL RELEASE OF MODIFICATION LIABILITY:** YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT ANY MODIFICATION, ALTERATION, TUNE, OR MECHANICAL WORK APPLIED TO A VEHICLE IS PERFORMED AT YOUR SOLE, UNASSISTED RISK. VELTO ENTERPRISES LLC EXPRESSLY DISCLAIMS ALL LIABILITY FOR VEHICLE DAMAGE, MECHANICAL FAILURE, ENGINE BLOWN/DAMAGE, BRAKE FAILURE, FIRE, VOIDED MANUFACTURER WARRANTIES, IMPAIRMENT OF DRIVING SAFETY, TRAFFIC ACCIDENTS, PERSONAL INJURY, OR DEATH ARISING FROM OR RELATED TO RELIANCE ON AI ADVISOR CONTENT OR PLATFORM SUGGESTIONS.
+Carbase includes "Base Maps", an AI-assisted real-time mapping, routing, and community hazard reporting feature.
 
-### 4.2 OVR Score & Market Value Estimates
-* The **OVR Score** is a proprietary, subjective algorithmic estimate representing community build progression and modification scope. It is **NOT** a certified appraisal, mechanical inspection, structural safety report, or financial valuation.
-* **Market Value Estimates** are generated using algorithmic modeling of available market data and user-submitted inputs. They are provided "AS-IS" for informal guidance only.
-* You agree **NEVER** to rely upon an OVR Score or Market Value Estimate as a legal, financial, insurance, banking, loan collateral, or purchasing/selling appraisal. Velto Enterprises LLC bears zero liability for any financial loss, overpayment, failed vehicle transaction, or insurance dispute resulting from reliance on these scores.
-
-### 4.3 Illegal Street Racing & Public Safety Prohibition
-Carbase strictly condemns illegal street racing, reckless driving, distracted driving, stunt driving, and unsafe vehicle operation. Nothing within the App or community features shall be construed as encouraging or endorsing unlawful or unsafe driving practices. Users operate vehicles in the physical world at their own risk and must strictly comply with all local motor vehicle codes, speed limits, noise ordinances, and environmental regulations.
+* **Entertainment and Supplemental Use Only:** Base Maps is provided strictly on an "as-is" basis for entertainment and supplemental navigation. It is not a certified driving aid. You must always obey local traffic laws, posted speed limits, road signs, and real-world conditions.
+* **No Accuracy Guarantees:** We make no warranties regarding the accuracy, completeness, or reliability of routing data, community-submitted pins (Flock cams, police, hazards), AI dictation, or traffic conditions.
+* **COMPLETE WAIVER OF LIABILITY:** UNDER NO CIRCUMSTANCES SHALL VELTO ENTERPRISES LLC, ITS DIRECTORS, EMPLOYEES, OR AFFILIATES BE HELD LIABLE FOR ANY ACCIDENTS, VEHICLE DAMAGE, PERSONAL INJURY, DEATH, TRAFFIC CITATIONS, LEGAL PENALTIES, OR PROPERTY DAMAGE ARISING FROM YOUR USE OF BASE MAPS. 
+* **Distracted Driving:** You are solely responsible for operating your vehicle safely. Do not physically interact with the Carbase application while driving. By using Base Maps, you explicitly release Velto Enterprises LLC from any and all liability related to distracted driving incidents.
 
 ---
 
-## 5. In-App Purchases, Base Bolts, Car Codes, Virtual Items, & Subscriptions
+## 4. Artificial Intelligence Disclaimer
 
-### 5.1 Payment Processing & Apple In-App Purchases
-All digital purchases within Carbase (including **Base Bolts**, **Car Codes**, VIP passes, digital customization items, and subscriptions) are processed through third-party billing providers, including Apple In-App Purchases (IAP). Payments are governed strictly by Apple's Terms of Service and billing policies.
+The Carbase "Resident Automotive Advisor" and AI dictation engines use advanced generative artificial intelligence models to parse intents, provide modification suggestions, and analyze vehicle builds.
 
-### 5.2 Strict No-Refund Policy
-**ALL PURCHASES MADE WITHIN THE APP ARE FINAL AND NON-REFUNDABLE.** Except where explicitly required by mandatory applicable consumer protection law or Apple's refund policy, Velto Enterprises LLC offers zero cash refunds, credits, or exchanges for digital goods, Base Bolts, Car Codes, or unused subscription time.
-
-### 5.3 Virtual Items, Base Bolts, & Car Codes Have Zero Monetary Value
-Digital tokens, Base Bolts, Car Codes, OVR points, rank badges, digital cards, and virtual garage items are licensed digital assets provided for entertainment inside the platform only.
-* Virtual items **HAVE NO REAL-WORLD MONETARY VALUE**, constitute no property right or title, and cannot be redeemed for legal tender, cash, or real-world goods from Velto or any third party.
-* You are strictly prohibited from buying, selling, auctioning, or trading Base Bolts, Car Codes, or account access for real-world fiat currency outside the official App environment. Any attempt to monetize platform assets externally will result in immediate permanent account termination and forfeiture of all virtual items without compensation.
+* **No Mechanical Advice:** The AI is not a certified mechanic, automotive engineer, or legal professional. Its outputs may contain hallucinations, mechanical inaccuracies, or legally non-compliant advice (e.g., suggesting emissions-defeating modifications).
+* **Assumption of Risk:** Any modifications, purchases, or mechanical work you perform based on AI recommendations are done entirely at your own risk. We are not liable for voided warranties, catastrophic engine failures, safety hazards, or emissions violations resulting from AI advice.
 
 ---
 
-## 6. User Content & Intellectual Property Licenses
+## 5. Intellectual Property & User Content
 
-### 6.1 Ownership of Your Submissions
-You retain ownership of the original text, photos, vehicle build logs, and media that you directly upload to Carbase ("User Content").
-
-### 6.2 Broad Irrevocable License Granted to Velto
-By uploading, submitting, or displaying User Content anywhere within the Services, you grant Velto Enterprises LLC a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, sublicensable (through multiple tiers), transferable license to host, store, copy, reproduce, modify, adapt, publish, translate, create derivative works from, publicly display, distribute, compile, aggregate, and incorporate your User Content into AI training datasets, market analytics models, promotional materials, platform databases, and media channels without attribution or compensation to you.
-
-### 6.3 Content Representations & Accuracy
-You represent and warrant that:
-1. You own or possess all necessary rights, licenses, and legal permissions to post your User Content.
-2. Your User Content does not infringe any third-party trademark, copyright, patent, privacy, or publicity right.
-3. Your User Content does not contain fraudulent, deceptive, or intentionally falsified vehicle modification histories or VIN data.
+* **Our Rights:** The Carbase application, algorithms (including the OVR Score engine), branding, 3D card designs, and underlying code are the exclusive intellectual property of Velto Enterprises LLC.
+* **Your Content:** By uploading photos, exhaust sound clips, and build logs, you grant Velto a worldwide, non-exclusive, royalty-free license to use, display, reproduce, and distribute your content within the platform and for promotional purposes. You represent that you own the rights to any media you upload.
 
 ---
 
-## 7. Prohibited Uses & Community Conduct Standards
+## 6. Prohibited Conduct
 
-You agree that you will **NOT**, under any circumstances:
-1. Submit false, fraudulent, fabricated, stolen, or spoofed vehicle information, VIN numbers, or build documentation.
-2. Impersonate any person, business entity, law enforcement agency, automotive brand, or official Velto representative.
-3. Use the App for any illegal purpose, including arranging unlawful street races, selling stolen auto parts, or evading law enforcement.
-4. Harass, threaten, stalk, abuse, defame, or intimidate any user, crew member, or staff member.
-5. Post content that is sexually explicit, violent, hate speech, dangerous, or promotes self-harm.
-6. Reverse-engineer, decompile, disassemble, decrypt, extract source code, or attempt to hack any part of the App or infrastructure.
-7. Use automated bots, scrapers, data-mining tools, or automated scripts to collect information from the App without express written authorization.
-8. Interfere with, bypass, or disable any security mechanism, rate limit, access control, or digital rights management system.
-9. Artificially manipulate or falsify OVR Scores, trade systems, or crew rankings through automated software or collusion.
-10. Upload viruses, malware, spyware, Trojan horses, or malicious code designed to disrupt system performance.
+You agree NOT to:
+1. Upload explicit, derogatory, hateful, or illegal content.
+2. Exploit, reverse-engineer, or manipulate the OVR Score calculation algorithm.
+3. Submit fraudulent VINs or spoof GPS locations for gamification XP.
+4. Harass, threaten, or doxx other users in Crews or the Discover feed.
+5. Use the platform for illegal street racing coordination or illicit part sales.
 
-Violations of this section will result in immediate, permanent ban of your account and device, forfeiture of all virtual assets, and potential referral to law enforcement agencies for civil or criminal prosecution.
+Violation of these rules will result in immediate, permanent account termination and potential reporting to law enforcement.
 
 ---
 
-## 8. Intellectual Property & Proprietary Rights
+## 7. Purchases, Subscriptions & Refunds
 
-The Services—including all source code, databases, backend architecture, algorithms, UI/UX design, graphics, sound effects, trademarks, service marks, trade secrets, the OVR Score system, AI Advisor logic, and branding ("Company IP")—are the exclusive property of **Velto Enterprises LLC** and are protected by United States and international copyright, trademark, patent, and trade secret laws.
-
-You are granted a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the App solely for your personal, non-commercial entertainment use in strict accordance with these Terms. No rights or licenses in Company IP are granted to you by implication or otherwise.
-
-"Carbase," "Carbase," "Velto Enterprises," "OVR Score," "Mod Helper," and associated logos are registered or common-law trademarks of Velto Enterprises LLC. Un-authorized use of company marks is strictly prohibited.
+* **In-App Purchases:** All purchases of Base Bolts, Car Packs, Vault unlocks, and PRO Subscriptions are processed via Apple.
+* **Refund Policy:** Digital goods and virtual currencies (Base Bolts) are non-refundable once consumed or opened. Subscription refunds are handled strictly through Apple's App Store policies.
 
 ---
 
-## 9. Third-Party Services, Retailers, & External Links
+## 8. Limitation of Liability
 
-The Services contain integration links to third-party providers (e.g., aftermarket parts merchants, VIN databases, vehicle history platforms, social networks, payment processors, and AI cloud services). 
-* Velto Enterprises LLC does not endorse, guarantee, warrant, or assume responsibility for any third-party product, service, website, pricing accuracy, shipping delay, or part quality.
-* All purchases made on external merchant websites linked through Carbase are strictly transactions between you and the third-party merchant. Velto Enterprises LLC bears zero liability for merchant disputes, defective parts, non-fitting components, or order fulfillment errors.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, VELTO ENTERPRISES LLC SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM (A) YOUR ACCESS TO OR USE OF THE SERVICES; (B) ANY CONDUCT OR CONTENT OF ANY THIRD PARTY ON THE SERVICES; OR (C) ANY UNAUTHORIZED ACCESS TO YOUR DATA. IN NO EVENT SHALL OUR AGGREGATE LIABILITY EXCEED THE AMOUNT YOU PAID US IN THE PAST 12 MONTHS.
 
 ---
 
-## 10. DISCLAIMER OF ALL WARRANTIES
+## 9. Governing Law & Dispute Resolution
 
-**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE Carbase APPLICATION AND ALL SERVICES ARE PROVIDED ENTIRELY ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTIES OF ANY KIND.**
-
-VELTO ENTERPRISES LLC AND ITS OFFICERS, DIRECTORS, EMPLOYEES, SHAREHOLDERS, AGENTS, SUPPLIERS, AFFILIATES, AND LICENSORS EXPRESSLY DISCLAIM ALL WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO:
-1. IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
-2. ANY WARRANTY THAT THE SERVICES WILL BE UNINTERRUPTED, SECURE, ACCURATE, ERROR-FREE, TIMELY, OR FREE OF MALWARE OR VIRUSES.
-3. ANY WARRANTY REGARDING THE ACCURACY, RELIABILITY, SAFETY, LEGALITY, OR CORRECTNESS OF AI ADVISOR RECOMMENDATIONS, FITMENT GUIDES, OVR SCORES, OR MARKET VALUE ESTIMATES.
+These Terms shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of law principles. Any dispute arising from these Terms shall be resolved through binding arbitration conducted in Delaware, rather than in court.
 
 ---
 
-## 11. STRICT LIMITATION OF LIABILITY ($100 MAX CAP)
+## 10. Contact Us
 
-**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL VELTO ENTERPRISES LLC, ITS PARENT COMPANIES, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, CONTRACTORS, AGENTS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY:**
-1. **INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, MULTIPLE, OR EXEMPLARY DAMAGES.**
-2. **LOSS OF PROFITS, REVENUE, DATA, GOODWILL, SAVINGS, BUSINESS OPPORTUNITY, OR COST OF PROCUREMENT OF SUBSTITUTE GOODS.**
-3. **PERSONAL INJURY, WRONGFUL DEATH, PHYSICAL DAMAGE TO VEHICLES, ENGINE FAILURE, ACCIDENTS, ROAD INCIDENTS, TRAFFIC FINES, VOIDED WARRANTIES, PROPERTY DAMAGE, OR FINANCIAL LOSSES OF ANY KIND ARISING FROM OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICES, EVEN IF VELTO ENTERPRISES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.**
-
-### TOTAL AGGREGATE LIABILITY CAP
-**IN NO EVENT SHALL THE TOTAL CUMULATIVE AGGREGATE LIABILITY OF VELTO ENTERPRISES LLC AND ITS AFFILIATES ARISING OUT OF OR RELATING TO THESE TERMS, THE APP, OR THE SERVICES EXCEED THE GREATER OF: (A) THE TOTAL AMOUNT ACTUALLY PAID BY YOU TO VELTO ENTERPRISES LLC FOR THE APP IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE CLAIM, OR (B) ONE HUNDRED UNITED STATES DOLLARS ($100.00 USD).**
-
-THE EXISTENCE OF ONE OR MORE CLAIMS WILL NOT ENLARGE THIS LIMIT. YOU ACKNOWLEDGE AND AGREE THAT THE DISCLAIMERS AND LIMITATIONS OF LIABILITY SET FORTH HEREIN FORM AN ESSENTIAL BARGAIN BETWEEN YOU AND VELTO ENTERPRISES LLC, AND THAT VELTO WOULD NOT PROVIDE THE APP TO YOU ABSENT THESE LIMITATIONS.
-
----
-
-## 12. INDEMNIFICATION (FULL USER COVERAGE)
-
-YOU AGREE TO FULLY INDEMNIFY, DEFEND, AND HOLD HARMLESS VELTO ENTERPRISES LLC, ITS OFFICERS, DIRECTORS, SHAREHOLDERS, EMPLOYEES, AGENTS, AFFILIATES, SUCCESSORS, AND ASSIGNS FROM AND AGAINST ANY AND ALL CLAIMS, DEMANDS, SUITS, CAUSES OF ACTION, LIABILITIES, DAMAGES, LOSSES, SETTLEMENTS, FINES, PENALTIES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS' FEES AND COURT COSTS) ARISING FROM OR RELATED TO:
-1. Your access to, use of, or misuse of the Services.
-2. Any mechanical work, modification, installation, tuning, or vehicle operation performed by you or a third party based directly or indirectly on content, advice, or AI Advisor suggestions in the App.
-3. Any vehicle accident, collision, personal injury, death, property damage, or traffic violation involving your vehicle.
-4. Your User Content, including claims of copyright, trademark, or privacy infringement.
-5. Your breach or violation of any provision of these Terms or applicable law.
-6. Any dispute between you and another platform user, crew member, or third-party auto parts seller.
-
-Velto Enterprises LLC reserves the right, at your expense, to assume exclusive defense and control of any matter subject to indemnification by you, and you agree to fully cooperate with our legal defense.
-
----
-
-## 13. Termination & Account Cancellation
-
-### 13.1 Voluntary Termination
-You may terminate your account at any time by utilizing the account deletion feature inside the App settings. Account deletion is permanent and unrecoverable.
-
-### 13.2 Termination by Velto
-Velto Enterprises LLC reserves the absolute right, in its sole discretion, without prior notice or liability, to suspend, restrict, block, or permanently terminate your account and access to the App for any reason, including without limitation:
-* Breach of these Terms or community guidelines.
-* Fraudulent, illegal, or abusive conduct.
-* Extended periods of account inactivity.
-* Operational, legal, or legal risk considerations.
-
-### 13.3 Effect of Termination
-Upon termination: all licenses granted to you immediately cease; your access to the App and virtual assets ends; and all Car Codes, virtual items, and unredeemed balances are permanently forfeited without compensation or liability. Sections 4, 5.3, 6.2, 8, 10, 11, 12, 14, 15, 16, 17, and 18 shall survive termination indefinitely.
-
----
-
-## 14. BINDING ARBITRATION & CLASS ACTION WAIVER
-
-**PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.**
-
-### 14.1 Mandatory Informal Resolution
-Before initiating any legal proceeding, you agree to contact our legal department at [legal@veltoteam.com](mailto:legal@veltoteam.com) with a detailed written description of your claim. Both parties agree to engage in good-faith negotiations to resolve the dispute informally for at least thirty (30) business days before initiating formal arbitration.
-
-### 14.2 Binding Individual Arbitration
-If an informal resolution is not reached, any dispute, controversy, claim, or legal action arising out of or relating to these Terms, the Privacy Policy, the App, or the Services shall be resolved exclusively by final and binding individual arbitration administered by the **American Arbitration Association ("AAA")** under its Consumer Arbitration Rules. 
-* The arbitration shall be conducted by a single neutral arbitrator selected in accordance with AAA rules.
-* The arbitration proceeding shall take place in Orange County, Florida, or remotely via videoconference at Velto's election.
-* Judgment on the arbitration award rendered by the arbitrator may be entered in any court having competent jurisdiction.
-
-### 14.3 CLASS ACTION WAIVER
-**YOU AND VELTO ENTERPRISES LLC AGREE THAT EACH PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF, CLASS MEMBER, OR PARTICIPANT IN ANY PURPORTED CLASS ACTION, COLLECTIVE ACTION, CONSOLIDATED ACTION, PRIVATE ATTORNEY GENERAL ACTION, OR REPRESENTATIVE PROCEEDING.** 
-The arbitrator shall have no legal authority to combine or consolidate claims of multiple individuals, conduct class-wide arbitration, or issue awards to anyone not a party to the individual arbitration.
-
-### 14.4 Forum Exception for Small Claims & IP
-Notwithstanding the arbitration agreement, either party retains the right to bring an individual action in small claims court of competent jurisdiction in Orange County, Florida, or to seek emergency injunctive relief in state or federal court to prevent the actual or threatened infringement of intellectual property rights.
-
----
-
-## 15. Governing Law & Choice of Venue
-
-These Terms, their validity, construction, performance, and enforcement shall be governed by, construed, and enforced in accordance with the internal laws of the **State of Florida, United States of America**, without giving effect to any conflict of law principles that would result in the application of the laws of any other jurisdiction.
-
-To the extent any litigation is permitted outside of arbitration, you irrevocably consent to the exclusive personal jurisdiction and venue of the state and federal courts located in **Orange County, Florida**, and waive all defenses of lack of personal jurisdiction and forum non conveniens.
-
----
-
-## 16. Apple App Store Required Terms
-
-If you downloaded the App from the Apple App Store, the following terms apply:
-1. **Acknowledgement:** These Terms are concluded between you and Velto Enterprises LLC only, and not with Apple Inc. ("Apple"). Velto, not Apple, is solely responsible for the App and its content.
-2. **Scope of License:** The license granted to you for the App is limited to a non-transferable license to use the App on any Apple-branded products running iOS/iPadOS that you own or control.
-3. **Maintenance and Support:** Velto is solely responsible for providing any maintenance and support services. Apple has no obligation whatsoever to furnish any maintenance or support services.
-4. **Warranty:** In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price (if any) for the App. To the maximum extent permitted by law, Apple will have no other warranty obligation whatsoever.
-5. **Product Claims:** Velto, not Apple, is responsible for addressing any claims of the end-user or third party relating to the App or possession/use of the App, including: (i) product liability claims; (ii) any claim that the App fails to conform to applicable legal or regulatory requirements; and (iii) claims arising under consumer protection or privacy legislation.
-6. **Intellectual Property:** In the event of any third-party claim that the App infringes a third party's IP rights, Velto, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of such claim.
-7. **Third-Party Beneficiary:** You acknowledge and agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms, and that upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary.
-
----
-
-## 17. Severability, Waiver, & Entire Agreement
-
-* **Severability:** If any provision of these Terms is held by an arbitrator or court of competent jurisdiction to be invalid, illegal, or unenforceable, such provision shall be enforced to the maximum extent permissible, and the remaining provisions of these Terms shall remain in full force and effect.
-* **No Waiver:** No failure or delay by Velto Enterprises LLC in exercising any right, power, or remedy under these Terms shall operate as a waiver thereof, nor shall any single or partial exercise preclude any other right or remedy.
-* **Entire Agreement:** These Terms, together with the Privacy Policy, constitute the complete, entire, and exclusive statement of agreement between you and Velto Enterprises LLC with respect to the Services, superseding all prior oral or written communications, proposals, or understandings.
-
----
-
-## 18. Changes & Modifications to Terms
-
-Velto Enterprises LLC reserves the right, in its sole discretion, to modify, update, or revise these Terms at any time. When material updates are made, we will notify you by updating the "Last Updated" date at the top of these Terms and, where appropriate, sending an in-app notice or email notification. 
-
-Your continued access to or use of the Services after the effective date of any revised Terms constitutes your unconditional agreement to be bound by the updated Terms. If you do not agree to the updated Terms, you must immediately stop using the App and delete your account.
-
----
-
-## 19. Legal Contact Information
-
-If you have any legal questions, claims, copyright notices, or arbitration demands regarding these Terms or the Services, please contact our legal counsel:
-
-* **Legal Counsel Email:** [legal@veltoteam.com](mailto:legal@veltoteam.com)
-* **General Support:** [support@veltoteam.com](mailto:support@veltoteam.com)
-* **Privacy Officer:** [privacy@veltoteam.com](mailto:privacy@veltoteam.com)
-* **Company:** Velto Enterprises LLC
-* **Official Website:** [https://veltoteam.com](https://veltoteam.com/)
-
-© 2026 Velto Enterprises LLC. All rights reserved. Proprietary vehicle identity infrastructure and AI build protection framework.
-
+If you have any questions about these Terms, please contact us at:
+* **Email:** [legal@veltoteam.com](mailto:legal@veltoteam.com)
+* **Website:** [https://veltoteam.com](https://veltoteam.com/)

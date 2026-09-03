@@ -9,6 +9,7 @@
 * [🗂️ Your Car Detail Page](basics/car-detail.md)
 * [🔧 Logging Modifications](basics/add-mod.md)
 * [⭐ OVR Score & Rating Engine](basics/ovr-score.md)
+* [🗺️ Base Maps Navigation](basics/base-maps.md)
 * [🤖 Resident Automotive Advisor](basics/ai-advisor.md)
 * [🎨 Customization & 3D Styling](basics/customization-studio.md)
 * [🔐 The Vault & Card Pack Openings](basics/vault.md)

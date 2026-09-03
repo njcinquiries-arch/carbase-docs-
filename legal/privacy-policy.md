@@ -1,6 +1,6 @@
 # 🔒 Privacy Policy
 
-Effective Date: June 29, 2026 · Last Updated: August 16, 2026 · Velto Enterprises LLC
+Effective Date: June 29, 2026 · Last Updated: September 3, 2026 · Velto Enterprises LLC
 
 **Summary:** Carbase collects vehicle information, account data, modification history, diagnostic logs, and usage metrics to deliver its services. We do not sell your personal information. You can delete your account and data at any time.
 
@@ -29,7 +29,11 @@ If you have questions about this policy, contact our Data Protection & Privacy O
 * **Log & Diagnostic Reports:** IP address, crash logs, system call traces, memory state at time of crash, and server request timestamps.
 * **Camera & Photo Library Access:** Only accessed upon explicit permission to scan VIN labels, license plates, or upload vehicle photos.
 
-### C. Information From Third-Party Sources
+### C. Base Maps & Location Data (Zero-Retention Policy)
+* **Ephemeral Location Processing:** When using the Base Maps navigation feature, your live GPS coordinates are processed exclusively on your device memory (RAM) and ephemerally passed to routing APIs solely to calculate immediate navigation routes.
+* **No Storage or Tracking:** We absolutely do not collect, store, record, transmit, log, or sell your location data, travel history, speed metrics, or route choices to any servers. Your GPS location exists only in the volatile memory of your phone for the exact duration it takes to render the map on your screen.
+
+### D. Information From Third-Party Sources
 * **Automotive Data Providers:** We query licensed automotive databases using your VIN to retrieve factory build specifications, safety recall notices, and historical market data.
 * **AI Infrastructure Partners:** Telemetry metadata regarding AI Advisor interactions to evaluate prompt performance and guardrail accuracy.
 
@@ -106,4 +110,3 @@ For any privacy inquiries, data subject requests, or regulatory communications:
 * **Website:** [https://veltoteam.com](https://veltoteam.com/)
 
 © 2026 Velto Enterprises LLC. All rights reserved.
-

@@ -86,3 +86,7 @@ These Terms shall be governed by and construed in accordance with the laws of th
 If you have any questions about these Terms, please contact us at:
 * **Email:** [legal@veltoteam.com](mailto:legal@veltoteam.com)
 * **Website:** [https://veltoteam.com](https://veltoteam.com/)
+
+### 4.1 Carbase Advisor Voice & Accuracy Limitations
+* **Speech-to-Text Inaccuracies:** The Advisor relies on third-party voice transcription engines. Velto is not responsible for misinterpretations, incorrect routing, or dropped pins resulting from misunderstood speech commands.
+* **Environmental Context Limitations:** While the Advisor utilizes live map telemetry (e.g., active pins, weather context), this data is estimated. Do not rely on the Advisor's description of hazards, traffic, or weather over your own physical perception of the road.

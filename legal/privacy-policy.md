@@ -110,3 +110,7 @@ For any privacy inquiries, data subject requests, or regulatory communications:
 * **Website:** [https://veltoteam.com](https://veltoteam.com/)
 
 © 2026 Velto Enterprises LLC. All rights reserved.
+
+### E. Voice Recognition & Audio Telemetry (Zero-Retention Policy)
+* **Ephemeral Audio Processing:** When you activate the Carbase Advisor via voice, your microphone audio is processed strictly on-device or routed ephemerally via Apple/Google’s native Speech-to-Text APIs to transcribe your request into text.
+* **No Voice Recording Storage:** Velto Enterprises LLC does absolutely not record, store, log, or sell your voice audio clips. The raw audio data exists only for the exact duration of the transcription process and is immediately destroyed. 

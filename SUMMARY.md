@@ -15,10 +15,12 @@
 * [🔐 The Vault & Card Pack Openings](basics/vault.md)
 * [📲 Car Codes & Windshield Decals](basics/qr-sticker.md)
 * [📈 XP, Levels & Badges](basics/progression.md)
+* [🪟 Liquid Glass & UI Architecture](basics/liquid-glass-components.md)
 * [💎 Carbase PRO](basics/carbase-pro.md)
 
 ## COLLECT
 
+* [🏛️ The Mint • Collector Dex](collect/the-mint.md)
 * [🎁 Card Packs & Odds](collect/car-packs.md)
 * [🃏 3D Car Cards & Profiles](collect/car-cards.md)
 

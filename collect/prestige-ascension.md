@@ -16,14 +16,14 @@ The **Prestige & Card Ascension System** is Carbase's official card fusion and e
 
 Every car begins at Tier 0 (Common) and ascends through 5 prestige levels:
 
-| Tier & Rarity | Recipe Required | Multiplier | Stat Gains | Card Border / Visuals |
+| Tier & Rarity | Recipe Required | Multiplier | Stat Gains | Card Border / Visual Progression |
 | :--- | :--- | :---: | :---: | :--- |
-| **Tier 0 • Common** | *Fresh Spot or Mint* | **1X** | Base OVR | Clean Liquid Glass Slab • Silver Badge |
-| **Tier 1 • Uncommon** | 1 Duplicate + 1,000 Bolts | **2X** | **+2 OVR** | Emerald Glow Accent • Emerald Badge |
-| **Tier 2 • Rare** | 1 Duplicate + 2,500 Bolts | **3X** | **+4 OVR** | Cyan Sapphire Sheen • Cyan Badge |
-| **Tier 3 • Epic** | 1 Duplicate + 5,000 Bolts | **4X** | **+6 OVR** | Amethyst Purple Foil • Purple Badge |
-| **Tier 4 • Legendary** | 1 Duplicate + 10,000 Bolts | **5X** | **+8 OVR** | Amber Gold Laser Edge • Gold Badge |
-| **Tier 5 • Mythic (MAX)** | 1 Duplicate + 25,000 Bolts | **6X** | **+10 OVR** | Holographic Platinum Foil • Neon Prismatic Badge |
+| **Tier 0 • Common** | *Fresh Spot or Mint* | **1X** | Base OVR | **Mundane Matte Industrial Slate Gray** (`#64748B` ➔ `#334155`) |
+| **Tier 1 • Uncommon** | 1 Duplicate + 1,000 Bolts | **2X** | **+2 OVR** | **Mundane Muted Stone Pewter** (`#78716C` ➔ `#44403C`) |
+| **Tier 2 • Rare** | 1 Duplicate + 2,500 Bolts | **3X** | **+4 OVR** | **Dual-Tone Gunmetal Steel-Blue** (`#38BDF8` ➔ `#0F172A`) |
+| **Tier 3 • Epic** | 1 Duplicate + 5,000 Bolts | **4X** | **+6 OVR** | **Radiant Ultraviolet to Electric Cyan Gradient** (`#EC4899` ➔ `#06B6D4`) |
+| **Tier 4 • Legendary** | 1 Duplicate + 10,000 Bolts | **5X** | **+8 OVR** | **High-Variability Molten Gold to Flame Ember Gradient** (`#FEF08A` ➔ `#F59E0B` ➔ `#EF4444`) |
+| **Tier 5 • Mythic (MAX)** | 1 Duplicate + 25,000 Bolts | **6X** | **+10 OVR** | **Full Cosmic Holographic Prismatic Rainbow** (`#F472B6` ➔ `#C084FC` ➔ `#60A5FA` ➔ `#34D399` ➔ `#FBBF24`) |
 
 ---
 

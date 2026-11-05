@@ -1,69 +1,85 @@
 # 🏛️ The Mint • Collector Dex & Automotive Vault
 
-**The Mint** is CarBase's automotive card-creation hub, cold-vault registry, and decentralized collector economy. It bridges physical automotive culture with digital collectible trading cards, computer-vision spotting, and social prestige.
+**The Mint** is Carbase's official collector economy, automotive dex, and trading hub. It brings digital collectible trading card culture to real-world automotive passion, allowing enthusiasts to collect, trade, and showcase iconic machines.
 
 ---
 
-## 🎯 Core Objectives & Capabilities
+## 🎯 What is The Mint?
 
-The Mint turns real-world car spotting, vehicle ownership, and custom builds into a gamified, graded digital card collection:
+The Mint serves as the central hub for automotive collectors across the community:
 
-1. **AI-Powered Spotter Camera:** Point your phone camera at any vehicle in the wild to instantly detect make, model, trim, and visible modifications—minting an official collector card on the spot.
-2. **Base Dex (Collector Registry):** An automotive Pokédex that catalogs factory production models, legendary tuners, and 1-of-1 hypercars across international car cultures.
-3. **Live Auctions & Dex Trading:** A community-driven marketplace powered by **Base Bolts** where drivers can list, bid on, and trade rare cards, custom holographic skins, and build cards.
-4. **Prestige Multipliers & Cold-Vault Honors:** Earn compounding multipliers based on your garage horsepower, spotting accuracy, and collector streaks.
-
----
-
-## 📸 AI Spotter Camera
-
-The Spotter Camera (`components/SmartAISpotterModal.tsx`) utilizes high-speed automotive machine vision to evaluate vehicles in real time:
-
-* **Instant Vehicle Recognition:** Identifies chassis code, year bracket, factory color, and aero packages.
-* **Mod Spotting Engine:** Scans wheels, exhaust tips, suspension drops, carbon aero, and widebody kits.
-* **Auto-Grading & Rarity Assignment:** Assigns an intrinsic **OVR rating** and rarity tier (Common, Uncommon, Rare, Epic, Legendary, Grail, Mythic) upon scan completion.
-* **Spotter Card Minting:** Creates a unique collectible card that permanently records the spotter's handle, date, GPS coordinates, and vehicle spec.
+1. **Spot & Mint:** Spot legendary cars, unique builds, and exotic machines in the wild and immortalize them as official collectible cards.
+2. **The Collector Dex:** An automotive registry cataloging factory production legends, iconic tuners, and hypercars across international car cultures.
+3. **Live Auctions & Trading:** A community-driven marketplace powered by **Base Bolts** where collectors can bid on, buy, and trade rare cards.
+4. **Vault Staking & Prestige:** Lock your most prized cards into your digital vault to preserve condition and earn compounding collector rewards.
 
 ---
 
-## 🗂️ The Base Dex Catalog
+## 🃏 Minted Cards vs. Garage Cards: What's the Difference?
 
-The **Base Dex** acts as the central encyclopedia and collector binder for every vehicle in CarBase:
+Carbase features two distinct types of cards, each designed for a different purpose:
 
-* **Category Completion:** Track your discovery progress across categories including *JDM Legends*, *Euro Precision*, *American Muscle*, *Track Day Exotics*, *Vintage Classics*, and *Off-Road Warriors*.
-* **Interactive 3D Card Inspection:** Flip, rotate, and tilt minted cards with realistic lighting, gyroscopic parallax, and metallic foil reflections.
-* **Cold-Vault Staking:** Safely lock cards in your digital cold vault to preserve condition and accrue continuous collector XP.
+| Feature | 🚗 Garage Car Cards | 💎 Minted Dex Cards |
+| :--- | :--- | :--- |
+| **Primary Purpose** | Personal build tracker & living garage profile | Official graded collectible trading card slab |
+| **How You Get It** | Added to your garage as a car you own and modify | Minted via the Spotter or acquired through Dex auctions |
+| **Card Format** | Interactive 3D vehicle profile card | Graded 3D flippable slab with color-matched borders |
+| **Evolution** | **Living:** Updates as you add mods, dyno sheets, and XP | **Permanent:** Snapshot sealed at the moment of minting |
+| **Border & Finish** | Equipped with unlocked frames, cosmetics, and skins | Radiant border gradient matching car paint & image colors |
+| **Card Back** | Build timeline, verified parts list, and dyno curve | Intrinsic factory baseline or build spec grid & spotted mods |
+| **Serial & Provenance** | Personal garage ID and user profile ownership | Permanent serial number (`#VER_5`) and minter provenance |
+| **Marketplace** | Showcased on your public profile & Discover feed | Eligible for live Dex auctions, trading, and Base Bolts valuation |
+
+### 🚗 Garage Car Cards (Your Personal Build)
+Your Garage Card is the digital twin of your personal build. It grows with your vehicle over time — as you install new performance parts, log receipts, record exhaust clips, and dyno test, your card's stats and OVR Score dynamically rise. You can equip custom unlockable frames, cosmetic finishes, and showcase accessories from your collection.
+
+### 💎 Minted Dex Cards (Collector Slabs)
+Minted Cards are authentic collector trading cards sealed in an official digital grading slab. They feature:
+* **Palette-Matched Borders:** The luminous border gradient and badge crest dynamically match the vehicle's paint and photo palette (e.g. *Rosso Corsa Red*, *Velocity Blue*, *Alpine Weissach*, *Waterfall Emerald*).
+* **Flippable Dual-Sided Slab:**
+  * **Front Face:** High-impact vehicle photography with the official OVR Score crest in the top-right corner. The card face is free of distracting top-left text to maximize visual clarity.
+  * **Back Face:** Clean Intrinsic Baseline specs (Horsepower, Torque, Curb Weight, 0–60 / 60–130 mph) and verified detected modifications, omitting any redundant baseline clutter.
+* **Graded Rarity Badge Below Card:** An official graded rarity pill sits directly below the card slab with a color-coded status dot and Title Case rarity label (`Common`, `Uncommon`, `Rare`, `Epic`, `Legendary`, `Mythic`).
+* **Collector Provenance:** Stamped with a unique serial identifier and the collector's handle.
+
+---
+
+## 🔨 Prestige & Card Ascension
+Every car enters the Collector Dex at **Common** rarity. The sole path to rarity ascension is the [Prestige Forge](prestige-ascension.md):
+* **Duplicate Catalysts:** Combine two matching vehicles in the forge to ascend to the next rarity tier.
+* **Stat & Value Multipliers:** Each ascension tier yields permanent +2 OVR boosts and multiplied Base Bolt valuations (2X to 6X).
+* **The 5 Tiers:** Ascend from `Common` ➔ `Uncommon` ➔ `Rare` ➔ `Epic` ➔ `Legendary` ➔ `Mythic`.
+
+---
+
+## 🗂️ The Collector Dex Catalog
+
+The **Collector Dex** is the encyclopedia of vehicles in the Carbase ecosystem:
+
+* **Category Completion:** Track your collection progress across regional and cultural categories: *JDM Legends*, *Euro Precision*, *American Muscle*, *Supercars*, *Track Day Exotics*, and *Vintage Classics*.
+* **Interactive 3D Inspection:** Tap any card to flip between front artwork and the back intrinsic spec sheet with realistic physical lighting and metallic foil sheens.
+* **Prestige Fleet:** Elevate standout vehicles into Prestige status, boosting appraised Bolt valuations and collector ranking.
 
 ---
 
 ## ⚖️ Live Auctions & Market Exchange
 
-Drivers can buy, sell, and auction cards through the integrated Dex Auction House:
+Collectors can buy, sell, and trade cards through the integrated Dex Auction House:
 
-* **Live Bidding Engine:** Real-time countdowns, anti-snipe extensions, and instant bolt escrow locking.
-* **Buy It Now (BIN):** Instant settlement for fixed-price rare cards and exclusive holographic skins.
-* **Bolts Economy:** Transparent fee structure denominated in **Base Bolts**, rewarding active community participants.
+* **Live Bidding:** Real-time countdowns, anti-snipe extensions, and instant escrow locking.
+* **Buy It Now (BIN):** Instant acquisition for fixed-price rare cards and exclusive finishes.
+* **Base Bolts Currency:** Universal automotive trading currency earned through community activity, collection milestones, and Dex trading.
 
 ---
 
 ## 🏆 Mint Badges & Honors
 
-Specialized honors awarded for high-precision spotter scans, rare car curation, and cold-vault milestones:
+Milestone honors awarded for active collectors and curators:
 
 | Badge Title | Category | Requirements | Base Bolts Reward |
-|---|---|---|---|
-| 🦅 **Apex Spotter** | Spotting | 50 verified AI spotter scans with 95%+ precision | +500 Bolts |
-| 👑 **Grail Curator** | Curation | Mint or hold 3+ Grail or Mythic cards in your vault | +1,200 Bolts |
-| ❄️ **Cold Vault Master** | Staking | Stake 10+ legendary builds for 30 consecutive days | +800 Bolts |
-| ⚡ **Dex Completionist** | Catalog | Achieve 100% completion in any regional category | +2,500 Bolts |
+| :--- | :--- | :--- | :--- |
+| 🦅 **Apex Spotter** | Spotting | 50 verified spotter cards minted | +500 Bolts |
+| 👑 **Grail Curator** | Curation | Hold 3+ Grail or Mythic cards in your vault | +1,200 Bolts |
+| ❄️ **Cold Vault Master** | Staking | Keep prized builds securely vaulted | +800 Bolts |
+| ⚡ **Dex Completionist** | Catalog | Complete all entries in any Dex category | +2,500 Bolts |
 | 💎 **Mint Patron** | Economy | Complete 25 successful trades or auctions | +1,000 Bolts |
-
----
-
-## 🔮 Liquid Glass Vault Blob Interaction
-
-The Mint interface features Apple SwiftUI-native **Liquid Glass Vault Blobs** (`components/LiquidGlassVaultBlob.tsx`):
-
-* **Interactive Material Response:** Smooth haptic feedback and dynamic fluidity when opening and closing the vault.
-* **Ambient Lighting:** Adapts glow colors based on the highest rarity item held in the user's active session.
-* **Direct Navigation:** One-tap toggle between camera spotting, catalog inspection, and live marketplace auctions.

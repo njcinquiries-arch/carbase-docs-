@@ -32,3 +32,9 @@ Every modification logged in Carbase builds a permanent, chronological timeline:
 
 * **Free Tier:** Showcase up to 2 high-res photos per vehicle.
 * **Carbase PRO ($4.99/mo):** Upload up to **9 high-definition photos** and **4 exhaust / track video clips**.
+
+---
+
+## 💎 Looking for Minted Cards?
+
+If you are looking for graded collector slabs from the **Collector Dex** or vehicles minted in the wild, check out [🏛️ The Mint • Collector Dex](the-mint.md) to explore how minted cards feature palette-matched border slabs, sealed intrinsic specifications, and live Dex marketplace trading.

@@ -21,6 +21,7 @@
 ## COLLECT
 
 * [🏛️ The Mint • Collector Dex](collect/the-mint.md)
+* [🔨 Prestige & Card Ascension](collect/prestige-ascension.md)
 * [🎁 Card Packs & Odds](collect/car-packs.md)
 * [🃏 3D Car Cards & Profiles](collect/car-cards.md)
 
